@@ -1,4 +1,4 @@
-define(['appModule'], function(RMT)
+define(['appModule'], function(Shop)
 {
 	Shop.lazy.controller('MenuController', 
 	[
