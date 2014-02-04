@@ -1,0 +1,15 @@
+.page {
+	position: relative;
+	width: 80%;
+	min-width: 950px;
+	max-width: 1900px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 15px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 10px #999999;
+	-moz-box-shadow: 0px 0px 10px #999999;
+	box-shadow: 0px 0px 10px #999999;
+	overflow: hidden;
+	min-height: 100%;
+}

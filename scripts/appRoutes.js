@@ -33,6 +33,7 @@ define([], function()
                     'l10n',
                     'controller/MenuController',
                     'controller/ProductController',
+                    'service/ProductService',
                     'service/AlertService'
                 ]
             }

@@ -1,13 +1,24 @@
 {
-	"tables" : {
+	"tables" : [
 	
-		"name1" : {
-		
+		{
 			"id" : 1,
-			"title" : "" 
+			"title" : "Product 1",
+			"materials" : "Materials 1"
+		},{
+			"id" : 2,
+			"title" : "Product 2",
+			"materials" : "Materials 2"
+		},{
+			"id" : 3,
+			"title" : "Product 3",
+			"materials" : "Materials 3"
+		},{
+			"id" : 4,
+			"title" : "Product 4",
+			"materials" : "Materials 4"
 		}
 	
-	},
-	
+	]
 	
 }
