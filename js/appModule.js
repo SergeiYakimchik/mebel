@@ -1,12 +1,8 @@
 define(['appRoutes','service/lazyDependencyResolver'], function(config, lazyDependencyResolver)
 {
-    var RMT = angular.module('RMT', ['ui.bootstrap']);
+    var Shop = angular.module('Shop', ['ui.bootstrap']);
     
-    RMT.host = '/rmt';
-    
-    RMT.empl = {}; 
-
-    RMT.config(
+    Shop.config(
     [
         '$routeProvider',
         '$locationProvider',
@@ -17,23 +13,23 @@ define(['appRoutes','service/lazyDependencyResolver'], function(config, lazyDepe
 
         function($routeProvider, $locationProvider, $controllerProvider, $compileProvider, $filterProvider, $provide)
         {
-            RMT.lazy = {};
+        	Shop.lazy = {};
 
-            RMT.lazy.controller = $controllerProvider.register;
-            RMT.lazy.directive  = $compileProvider.directive;
-            RMT.lazy.filter     = $filterProvider.register;
-            RMT.lazy.factory    = $provide.factory;
-            RMT.lazy.service    = $provide.service;
+        	Shop.lazy.controller = $controllerProvider.register;
+        	Shop.lazy.directive  = $compileProvider.directive;
+        	Shop.lazy.filter     = $filterProvider.register;
+        	Shop.lazy.factory    = $provide.factory;
+        	Shop.lazy.service    = $provide.service;
             
             angular.forEach(config.routes, function(route, path)
             {
                 $routeProvider.when(path, {templateUrl:route.templateUrl, resolve:lazyDependencyResolver(route.dependencies)});
             });
 
-            $routeProvider.otherwise({redirectTo: '/login'});
+            $routeProvider.otherwise({redirectTo: '/index'});
         }
     ]);
     
 
-    return RMT;
+    return Shop;
 });

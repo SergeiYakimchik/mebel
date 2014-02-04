@@ -1,6 +1,6 @@
-define(['appModule'], function(RMT)
+define(['appModule'], function(Shop)
 {
-	RMT.lazy.service('AlertService', 
+	Shop.lazy.service('AlertService', 
 	[
 	 	function(){
 	 	

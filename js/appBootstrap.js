@@ -8,8 +8,8 @@ require
     [
         'appModule'
     ],
-    function(RMT)
+    function(Shop)
     {
-        angular.bootstrap(document, ['RMT']);
+        angular.bootstrap(document, ['Shop']);
     }
 );
