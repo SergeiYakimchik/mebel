@@ -5,14 +5,41 @@ body {
 	background: url('./img/bg.jpg') 0 0 #ddd;
 	margin: 0px;
 	padding: 0px;
-	color: #000;
+	padding-top: 10px;
+}
+
+@media (min-width: 979px) {
+
+  #midCol.affix-top {
+      position:fixed;
+  	  width:265px;
+  	  margin-right:10px;
+  	  
+  }
+  
+  #midCol.affix {
+      position:static;
+      width:100%;
+  }
+
+}
+
+@media (min-width: 767px) {
+  .affix,.affix-top {
+      position:static;
+  }
+}
+
+.footer, .page {
+	width: 80%;
+}
+
+.footer {
+	padding-top: 10px;
 }
 
 .page {
 	position: relative;
-	width: 80%;
-	min-width: 950px;
-	max-width: 1900px;
 	margin: 0 auto;
 	margin-top: 30px;
 	padding: 15px;
@@ -23,3 +50,4 @@ body {
 	overflow: hidden;
 	min-height: 93%;
 }
+
