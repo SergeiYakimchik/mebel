@@ -24,7 +24,20 @@
 </head>
 <body>
 
-	<div id="main" class="container page" ng-view></div>
+	<div id="main" class="container page">
+		<div ng-include src="'views/include/header.html'"></div>	
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div ng-include src="'views/include/leftMenu.html'"></div>	
+			</div>
+			<div class="col-md-6">
+				<div ng-view></div>
+			</div>
+		</div>
+		
+		<div ng-include src="'views/include/footer.html'"></div>
+	</div>
 	<div id="push"></div>
 
 </body>
