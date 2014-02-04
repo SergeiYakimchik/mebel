@@ -1,4 +1,3 @@
-//lazyDependencyResolver
 define([], function()
 {
     return function(dependencies)

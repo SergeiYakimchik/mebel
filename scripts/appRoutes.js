@@ -26,6 +26,15 @@ define([], function()
                     'controller/MenuController',
                     'service/AlertService'
                 ]
+            },
+            '/product/:id': {
+                templateUrl : 'views/product.html',
+                dependencies: [
+                    'l10n',
+                    'controller/MenuController',
+                    'controller/ProductController',
+                    'service/AlertService'
+                ]
             }
         }
     };
