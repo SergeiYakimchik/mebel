@@ -10,13 +10,10 @@ define(['appModule'], function(Shop)
 	 		
 	 		l10n.init();
 	 		
-	 		
 	 		ProductService.getProducts().success(function(data) {
 	 			$scope.products = data.tables;
 	 			console.log(data.tables);
 			});
-	 		
-	 		
 	 		
 	 	}
 	]);

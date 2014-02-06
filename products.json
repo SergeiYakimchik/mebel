@@ -3,18 +3,22 @@
 	
 		{
 			"id" : 1,
+			"img" : "img/products/1.jpg",
 			"title" : "Product 1",
 			"materials" : "Materials 1"
 		},{
 			"id" : 2,
+			"img" : "img/products/2.jpg",
 			"title" : "Product 2",
 			"materials" : "Materials 2"
 		},{
 			"id" : 3,
+			"img" : "img/products/3.jpg",
 			"title" : "Product 3",
 			"materials" : "Materials 3"
 		},{
 			"id" : 4,
+			"img" : "img/products/4.jpg",
 			"title" : "Product 4",
 			"materials" : "Materials 4"
 		}

@@ -48,3 +48,15 @@ body {
 	min-height: 93%;
 }
 
+.catalog-product {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.catalog-product:hover {
+	border: 1px solid #ccc;
+	background: #f9f9f9;
+	border-radius: .5em;
+}
+
