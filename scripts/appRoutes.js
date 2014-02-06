@@ -24,6 +24,8 @@ define([], function()
                 dependencies: [
                     'l10n',
                     'controller/MenuController',
+                    'controller/CatalogController',
+                    'service/ProductService',
                     'service/AlertService'
                 ]
             },
