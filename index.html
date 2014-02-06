@@ -30,21 +30,8 @@
 <body>
 
 
-	<div ng-include src="'views/include/header.html'"></div>	
-	<div class="container bs-docs-container">
-
-		<div class="row">
-			<div class="col-md-3">
-				<div ng-include src="'views/include/leftMenu.html'"></div>
-			</div>
-			<div class="col-md-9" role="main">
-				<div ng-view></div>
-			</div>
-		</div>
-
-		<div ng-include src="'views/include/footer.html'"></div>
-		<div id="push"></div>
-	</div>
+	<div ng-view></div>
+	<div id="push"></div>
 
 
 </body>
