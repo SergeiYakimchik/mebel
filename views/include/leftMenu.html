@@ -1,10 +1,13 @@
-<div class="bs-sidebar hidden-print affix-top" role="complementary">
+<div id="leftMenu" class="bs-sidebar" role="complementary" data-spy="affix" data-offset-top="500" data-offset-bottom="10" ng-controller="MenuController">
 	<ul class="nav bs-sidenav">
 
-		<li><a href="#/catalog">Каталог</a></li>
+		<li class="active"><a href="#/catalog">Каталог</a>
+			<ul class="nav">
+				<li class=""><a href="#/catalog/k1">Категория 1</a></li>
+				<li><a href="#/catalog/k2">Категория 2</a></li>
+				<li><a href="#/catalog/k3">Категория 3</a></li>
+			</ul></li>
 		<li><a href="#/about">О нас</a></li>
 
 	</ul>
-
-
 </div>

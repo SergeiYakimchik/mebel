@@ -5,27 +5,29 @@
 				<div class="col-sm-4" ng-show="products[$index+0]">
 					<div class="catalog-product">
 						<h4>{{products[$index+0].title}}</h4>
-						<img class="media-object"  class="img-thumbnail" alt="140x140" style="width: 140px; height: 140px;" ng-src="{{products[$index+0].img}}" alt="...">
+						<a href="#/product/{{products[$index+0].id}}" class="img-thumbnail">
+          					<img class="catalog-img" ng-src="{{products[$index+0].img}}">
+        				</a>
 					</div>
 				</div>
 				<div class="col-sm-4" ng-show="products[$index+1]">
 					<div class="catalog-product">
 						<h4>{{products[$index+1].title}}</h4>
-						<img class="media-object"  class="img-thumbnail" alt="140x140" style="width: 140px; height: 140px;" ng-src="{{products[$index+1].img}}" alt="...">
+						<a href="#/product/{{products[$index+1].id}}" class="img-thumbnail">
+          					<img class="catalog-img" ng-src="{{products[$index+1].img}}">
+        				</a>
 					</div>
 				</div>
 				<div class="col-sm-4" ng-show="products[$index+2]">
 					<div class="catalog-product">
 						<h4>{{products[$index+2].title}}</h4>
-						<img class="media-object"  class="img-thumbnail" alt="140x140" style="width: 140px; height: 140px;" ng-src="{{products[$index+2].img}}" alt="...">
+						<a href="#/product/{{products[$index+2].id}}" class="img-thumbnail">
+          					<img class="catalog-img" ng-src="{{products[$index+2].img}}">
+        				</a>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<pre>
-    	{{products | json}}
-    </pre>
 </div>
-
-

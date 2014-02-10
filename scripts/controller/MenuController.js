@@ -8,18 +8,29 @@ define(['appModule'], function(Shop)
 	 	function(l10n, $scope){
 	 		
 	 		$scope.myInterval = 5000;
-	 		  var slides = $scope.slides = [];
-	 		  $scope.addSlide = function() {
-	 		    var newWidth = 600 + slides.length;
-	 		    slides.push({
-	 		      image: 'http://placekitten.com/' + newWidth + '/300',
-	 		      text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
-	 		        ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
-	 		    });
-	 		  };
-	 		  for (var i=0; i<4; i++) {
-	 		    $scope.addSlide();
-	 		  }
+	 		var slides = $scope.slides = [];
+	 		$scope.addSlide = function() {
+	 			var newWidth = 600 + slides.length;
+	 			slides.push({
+	 				image: 'http://placekitten.com/' + newWidth + '/300',
+	 				text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
+	 				['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
+	 			});
+	 		};
+	 		for (var i=0; i<4; i++) {
+	 			$scope.addSlide();
+	 		}
+
+
+	 		$('#leftMenu').affix({
+	 			offset: {
+	 				top: 200
+	 				, bottom: function () {
+	 					return (this.bottom = $('.bs-footer').outerHeight(true))
+	 				}
+	 			}
+	 		})
+	 		
 	 		
 	 	}
 	]);

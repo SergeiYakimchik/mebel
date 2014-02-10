@@ -11,14 +11,21 @@ define(['appModule'], function(Shop)
 	 		
 	 		l10n.init();
 	 		
-	 		$scope.id = $routeParams.id;
+	 		$scope.product = {};
 	 		
-	 		ProductService.getProducts().success(function(data) {
-	 			$scope.products = data.tables;
-	 			console.log(data.tables);
+	 		ProductService.getProducts().success(function(response) {
+	 			getProductById(response)
+	 			console.log($scope.product);
 			});
 	 		
 	 		
+	 		var getProductById = function(response) {
+	 			angular.forEach(response.products, function(item){
+	 				if (item.id == $routeParams.id){
+	 					$scope.product = item;
+	 				}
+				});
+			};
 	 		
 	 	}
 	]);
