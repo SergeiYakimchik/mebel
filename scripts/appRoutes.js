@@ -8,6 +8,7 @@ define([], function()
                 dependencies: [
                     'l10n',
                     'controller/MenuController',
+                    'controller/IndexController',
                     'service/AlertService'
                 ]
             },

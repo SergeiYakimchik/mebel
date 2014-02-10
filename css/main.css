@@ -77,3 +77,21 @@ body {
 	margin-right: auto;
 }
 
+.index-img {
+	width: 900px;
+	height: 500px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.product-description {
+	min-height: 300px;
+}
+
+.product-price {
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 23px;
+}
+
+
