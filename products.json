@@ -4,22 +4,26 @@
 		{
 			"id" : 1,
 			"img" : "img/products/1.jpg",
-			"title" : "Product 1",
+			"title" : "Продукт 1",
+			"manufacturer": "Мостодрев",
 			"materials" : "Materials 1"
 		},{
 			"id" : 2,
 			"img" : "img/products/2.jpg",
 			"title" : "Product 2",
+			"manufacturer": "Мостодрев",
 			"materials" : "Materials 2"
 		},{
 			"id" : 3,
 			"img" : "img/products/3.jpg",
 			"title" : "Product 3",
+			"manufacturer": "Мостодрев",
 			"materials" : "Materials 3"
 		},{
 			"id" : 4,
 			"img" : "img/products/4.jpg",
 			"title" : "Product 4",
+			"manufacturer": "Мостодрев",
 			"materials" : "Materials 4"
 		}
 	

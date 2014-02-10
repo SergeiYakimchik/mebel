@@ -9,7 +9,8 @@ define(['appModule'], function(Shop)
 	 		var getProducts = function() {
 	 			return $http({
 	 			    url: 'products.json',
-	 			    method: 'GET'
+	 			    method: 'GET',
+	 			    header : {'Content-Type' : 'application/json; charset=UTF-8'}
 	 			});
 			};
 			

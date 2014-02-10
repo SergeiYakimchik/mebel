@@ -12,7 +12,6 @@ define(['appModule'], function(Shop)
 	 		
 	 		ProductService.getProducts().success(function(data) {
 	 			$scope.products = data.tables;
-	 			console.log(data.tables);
 			});
 	 		
 	 	}
