@@ -12,14 +12,6 @@ define([], function()
                     'service/AlertService'
                 ]
             },
-            '/about': {
-                templateUrl : 'views/about.html',
-                dependencies: [
-                    'l10n',
-                    'controller/MenuController',
-                    'service/AlertService'
-                ]
-            },
             '/catalog': {
                 templateUrl : 'views/catalog.html',
                 dependencies: [
@@ -37,6 +29,30 @@ define([], function()
                     'controller/MenuController',
                     'controller/ProductController',
                     'service/ProductService',
+                    'service/AlertService'
+                ]
+            },
+            '/interesting': {
+                templateUrl : 'views/interesting.html',
+                dependencies: [
+                    'l10n',
+                    'controller/MenuController',
+                    'service/AlertService'
+                ]
+            },
+            '/about': {
+                templateUrl : 'views/about.html',
+                dependencies: [
+                    'l10n',
+                    'controller/MenuController',
+                    'service/AlertService'
+                ]
+            },
+            '/feedback': {
+                templateUrl : 'views/feedback.html',
+                dependencies: [
+                    'l10n',
+                    'controller/MenuController',
                     'service/AlertService'
                 ]
             }
