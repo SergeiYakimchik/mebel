@@ -39,7 +39,15 @@
 			</table>
 			
 			<div class="col-md-12 product-price"><label>Цена:</label></div>
-			<div class="col-md-12 product-price">{{product.price}}</div>
+			<div class="col-md-12 product-price" data-toggle="tooltip" data-placement="right" title="Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара">{{product.price}}</div>
+			
+			<div class="col-md-12 product-button">
+				<button class="btn btn-success" data-toggle="tooltip" data-placement="right" title="Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара">Заказать</button>
+			</div>
+			
+			<div class="col-md-12 product-price-info">
+				 * Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара.
+			</div>
 		
 		</div>
 	</div>

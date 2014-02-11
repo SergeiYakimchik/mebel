@@ -105,4 +105,14 @@ body {
 	font-size: 23px;
 }
 
+.product-button {
+	text-align: center;
+}
+
+.product-price-info {
+	text-align: center;
+	font-size: 10px;
+}
+
+
 
