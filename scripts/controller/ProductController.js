@@ -13,11 +13,12 @@ define(['appModule'], function(Shop)
 	 		
 	 		$scope.product = {};
 	 		$scope.products = [];
-	 		$scope.seeAlsoProduct = [];
+	 		$scope.seeAlsoProducts = [];
 	 		$scope.id = $routeParams.id;
 	 		
 	 		ProductService.getProducts().success(function(response) {
 	 			$scope.products = response.products;
+	 			$scope.seeAlsoProducts = $scope.products.getRandom(3);
 	 			$scope.product = searchById($scope.id);
 			});
 	 		
@@ -29,6 +30,14 @@ define(['appModule'], function(Shop)
 	 				}
 				});
 	 			return product;
+			};
+			
+			Array.prototype.getRandom= function(num, cut){
+    			var A= cut ? this:this.slice(0);
+    			A.sort(function(){
+        			return .5-Math.random();
+    			});
+   			 	return A.splice(0, num);
 			};
 	 		
 	 	}
