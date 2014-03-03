@@ -10,6 +10,19 @@
 		<li><a href="#/interesting">Советы</a></li>
 		<li><a href="#/feedback">Обратная связь</a></li>
 		<li><a href="#/about">О нас</a></li>
-
 	</ul>
+	
+	<div>
+		<table id="currencyTable" class="table table-condensed table-hover">
+			<thead>
+				<tr><th colspan="3"> Курс валют </th> </tr>
+			</thead>
+			<tbody>
+				<tr><td> USD </td><td> {{currency.USD_SELL}} </td><td> {{currency.USD_BUY}} </td></tr>
+				<tr><td> EURO </td><td> {{currency.EUR_SELL}} </td><td> {{currency.EUR_BUY}} </td></tr>
+				<tr><td> RUR </td><td> {{currency.RUR_SELL}} </td><td> {{currency.RUR_BUY}} </td></tr>
+			</tbody>
+		</table>
+	</div>
+	
 </div>

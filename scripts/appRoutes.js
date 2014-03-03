@@ -2,58 +2,49 @@ define([], function()
 {
     return {
         defaultRoutePath: '/',
+        
+        defaultDependencies: [
+        	 'l10n',
+        	 'controller/MainController',
+        	 'controller/MenuController',
+        	 'service/AlertService',
+        	 'service/CurrencyService',
+        ],
+                          
         routes: {
             '/index': {
                 templateUrl: 'views/index.html',
                 dependencies: [
-                    'l10n',
-                    'controller/MenuController',
                     'controller/IndexController',
-                    'service/AlertService'
                 ]
             },
             '/catalog': {
                 templateUrl : 'views/catalog.html',
                 dependencies: [
-                    'l10n',
-                    'controller/MenuController',
                     'controller/CatalogController',
                     'service/ProductService',
-                    'service/AlertService'
                 ]
             },
             '/product/:id': {
                 templateUrl : 'views/product.html',
                 dependencies: [
-                    'l10n',
-                    'controller/MenuController',
                     'controller/ProductController',
                     'service/ProductService',
-                    'service/AlertService'
                 ]
             },
             '/interesting': {
                 templateUrl : 'views/interesting.html',
                 dependencies: [
-                    'l10n',
-                    'controller/MenuController',
-                    'service/AlertService'
                 ]
             },
             '/about': {
                 templateUrl : 'views/about.html',
                 dependencies: [
-                    'l10n',
-                    'controller/MenuController',
-                    'service/AlertService'
                 ]
             },
             '/feedback': {
                 templateUrl : 'views/feedback.html',
                 dependencies: [
-                    'l10n',
-                    'controller/MenuController',
-                    'service/AlertService'
                 ]
             }
         }

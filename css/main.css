@@ -114,5 +114,23 @@ body {
 	font-size: 10px;
 }
 
+#currencyTable {
+	width: 90%;
+}
+
+#currencyTable > thead > tr > th { 
+	color: #563d7c;
+}
+
+#currencyTable > tbody > tr > td { 
+	font-size: 10px;
+	color: #4a4a4a;
+}
+
+#price {
+	width: 100%;
+	text-align: center;
+}
+
 
 
