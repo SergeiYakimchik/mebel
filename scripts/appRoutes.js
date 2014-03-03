@@ -8,28 +8,29 @@ define([], function()
         	 'controller/MainController',
         	 'controller/MenuController',
         	 'service/AlertService',
-        	 'service/CurrencyService',
+        	 'service/CurrencyService'
         ],
                           
         routes: {
             '/index': {
                 templateUrl: 'views/index.html',
                 dependencies: [
-                    'controller/IndexController',
+                    'controller/IndexController'
                 ]
             },
             '/catalog': {
                 templateUrl : 'views/catalog.html',
                 dependencies: [
                     'controller/CatalogController',
-                    'service/ProductService',
+                    'service/ProductService'
                 ]
             },
             '/product/:id': {
                 templateUrl : 'views/product.html',
                 dependencies: [
                     'controller/ProductController',
-                    'service/ProductService',
+                    'service/OrderService',
+                    'service/ProductService'
                 ]
             },
             '/interesting': {

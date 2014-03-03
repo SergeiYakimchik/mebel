@@ -5,6 +5,8 @@ define([
         function(config, lazyDependencyResolver) {
 		    var Shop = angular.module('Shop', ['ui.bootstrap']);
 		    
+		    Shop.server = 'http://localhost:8080/mbl/';
+		    
 		    Shop.config(
 		    [
 		        '$routeProvider',

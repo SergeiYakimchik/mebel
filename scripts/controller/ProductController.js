@@ -5,12 +5,14 @@ define(['appModule'], function(Shop)
 	 	'l10n',
 	 	'$routeParams',
 	 	'$scope',
+	 	'OrderService',
 	 	'ProductService',
 
-	 	function(l10n, $routeParams, $scope, ProductService){
+	 	function(l10n, $routeParams, $scope, OrderService, ProductService){
 	 		
 	 		l10n.init();
 	 		
+	 		$scope.request = {};
 	 		$scope.product = {};
 	 		$scope.products = [];
 	 		$scope.seeAlsoProducts = [];
@@ -38,6 +40,16 @@ define(['appModule'], function(Shop)
         			return .5-Math.random();
     			});
    			 	return A.splice(0, num);
+			};
+			
+			$scope.buy = function(item) {
+				$scope.request.product = item;
+			};
+			
+			$scope.sendRequest = function() {
+				OrderService.send($scope.request).success(function(response) {
+					console.log(response);
+				});
 			};
 	 		
 	 	}

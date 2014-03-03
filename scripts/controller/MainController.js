@@ -11,6 +11,10 @@ define(['appModule'], function(Shop)
 	 			$scope.currency = response;
 			});
 	 		
+	 		$scope.getPrice = function(value) {
+				return value * $scope.currency.USD_BUY;
+			};
+	 		
 	 		
 	 	}
 	]);

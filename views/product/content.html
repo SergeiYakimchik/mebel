@@ -20,29 +20,22 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>
-							Материал:
-						</td>
-						<td>
-							 {{product.materials}}
-						</td>
+						<td>Материал:</td><td> {{product.materials}}</td>
 					</tr>
 					<tr>
-						<td>
-							Производитель:
-						</td>
-						<td>
-							 {{product.manufacturer}}
-						</td>
+						<td>Производитель:</td><td> {{product.manufacturer}}</td>
+					</tr>
+					<tr>
+						<td>Габариты:</td><td> {{product.size}}</td>
 					</tr>
 				</tbody>
 			</table>
 			
 			<div class="col-md-12 product-price"><label>Цена:</label></div>
-			<div class="col-md-12 product-price" data-toggle="tooltip" data-placement="right" title="Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара">{{product.price}}</div>
+			<div class="col-md-12 product-price">{{getPrice(product.price)}}</div>
 			
 			<div class="col-md-12 product-button">
-				<button class="btn btn-success" data-toggle="tooltip" data-placement="right" title="Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара">Заказать</button>
+				<button class="btn btn-success" data-toggle="modal" data-target="#buyModal" ng-click="buy(product)">Заказать</button>
 			</div>
 			
 			<div class="col-md-12 product-price-info">
@@ -58,6 +51,8 @@
 		</div>
 	</div>
 	<hr>
+	
 	<div ng-include src="'views/product/seeAlso.html'"></div>
+	<div ng-include src="'views/product/buyModal.html'"></div>
 
 </div>
