@@ -39,6 +39,1010 @@
 			"size":"300x100x200"
 		}
 	
-	]
+	],
+	"prods": {
+		"compTables" : [
+			{
+				"id": 1,
+				"title": "КС-003-01",
+				"materials": null,
+				"price": null,
+				"size": "800*1420*560",
+				"description": "Описание продукта 1"
+			},
+			{
+				"id": 2,
+				"title": "КС-003-02",
+				"materials": null,
+				"price": null,
+				"size":"1030*1420*560",
+				"description": "Описание продукта 2"
+			},
+			{
+				"id": 3,
+				"title": " КС-003-03",
+				"materials": null,
+				"price": null,
+				"size": "1250*1420*650", 
+				"description": "Описание продукта 3"
+			},
+			{
+				"id": 4,
+				"title": " КС-003-04",
+				"materials": null,
+				"price": null,
+				"size": "1125*850*560", 
+				"description": "Описание продукта 4"
+			},
+			{
+				"id": 5,
+				"title": "КС-003-05",
+				"materials": null,
+				"price": null,
+				"size": "1150*735*1290", 
+				"description": "Возможно исполнение тумбы слева или справа"
+			},
+			{
+				"id": 6,
+				"title": "КС-003-06",
+				"materials": null,
+				"price": null,
+				"size": "1050*735*1050", 
+				"description": "Описание продукта 6"
+			},
+			{
+				"id": 7,
+				"title": "КС-003-07",
+				"materials": null,
+				"price": null,
+				"size": "1050*735*1050", 
+				"description": "Описание продукта 7"
+			},
+			{
+				"id": 8,
+				"title": "КС-003-08",
+				"materials": null,
+				"price": null,
+				"size": "970*750*560", 
+				"description": "Описание продукта 8"
+			},
+			{
+				"id": 9,
+				"title": "КС-003-14",
+				"materials": null,
+				"price": null,
+				"size": "836*610*670", 
+				"description": "Описание продукта 9"
+			},
+			{
+				"id": 10,
+				"title": "КС-003-15",
+				"materials": null,
+				"price": null,
+				"size": "1430*1105*620", 
+				"description": "Описание продукта 10"
+			},
+			{
+				"id": 11,
+				"title": "КС-003-017",
+				"materials": null,
+				"price": null,
+				"size": "1300*1270*900", 
+				"description": "Описание продукта 11"
+			},
+			{
+				"id": 12,
+				"title": "КС-003-017",
+				"materials": null,
+				"price": null,
+				"size": "1300*1270*900", 
+				"description": "Описание продукта 12"
+			},
+			{
+				"id": 13,
+				"title": "КС-003-18",
+				"materials": null,
+				"price": null,
+				"size": "1302*850*560", 
+				"description": "Описание продукта 13"
+			},
+			{
+				"id": 14,
+				"title": "КС-003-019",
+				"materials": null,
+				"price": null,
+				"size": "1300*1400*650", 
+				"description": "Описание продукта 14"
+			},
+			{
+				"id": 15,
+				"title": "КС-003-20",
+				"materials": null,
+				"price": null,
+				"size": "1520*2010*900", 
+				"description": "Описание продукта 15"
+			},
+			{
+				"id": 16,
+				"title": "КС-003-20",
+				"materials": null,
+				"price": null,
+				"size": "1520*2010*900", 
+				"description": "Описание продукта 16"
+			}
+		],
+		"tv" : [
+			{
+				"id": 1,
+				"title": "КС-004-01",
+				"materials": null,
+				"price": null,
+				"size": "642*700*450", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 2,
+				"title": "КС-004-02",
+				"materials": null,
+				"price": null,
+				"size": "832*700*480", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 3,
+				"title": "КС-004-03",
+				"materials": null,
+				"price": null,
+				"size": "1000*650*480", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 4,
+				"title": "КС-004-04",
+				"materials": null,
+				"price": null,
+				"size": "1000*750*480", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 5,
+				"title": "КС-004-05",
+				"materials": null,
+				"price": null,
+				"size": "1000*700*480", 
+				"description": "Тумба для телерадиоаппаратуры. Заменить каринку с сайта"
+			},
+			{
+				"id": 6,
+				"title": "КС-004-06",
+				"materials": null,
+				"price": null,
+				"size": "675*650*450", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 7,
+				"title": "КС-004-07",
+				"materials": null,
+				"price": null,
+				"size": "1050*770*500", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 8,
+				"title": "КС-004-8",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*414", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 9,
+				"title": "КС-004-9",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*454", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 10,
+				"title": "КС-004-10",
+				"materials": null,
+				"price": null,
+				"size": "1100*607*450", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 11,
+				"title": "КС-004-11",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*414", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 12,
+				"title": "КС-004-9-1",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*454", 
+				"description": "Тумба для телерадиоаппаратуры"
+			}
+		],
+		"childern" : [
+			{
+				"id": 1,
+				"title": "КС-001",
+				"materials": null,
+				"price": null,
+				"size": "2705*1910*620", 
+				"description": "Фасад софт"
+			},
+			{
+				"id": 2,
+				"title": "КС-002-1",
+				"materials": null,
+				"price": null,
+				"size": "2705*1910*620", 
+				"description": "Фасад МДФ  “классик”"
+			},
+			{
+				"id": 3,
+				"title": "КС-002-2,
+				"materials": null,
+				"price": null,
+				"size": "2705*1910*620", 
+				"description": "Фасад МДФ  “лиана”"
+			},
+			{
+				"id": 4,
+				"title": "КС-002-3",
+				"materials": null,
+				"price": null,
+				"size": "2705*1910*620", 
+				"description": "Описание продукта 4"
+			},
+			{
+				"id": 5,
+				"title": "КС-013-1",
+				"materials": null,
+				"price": null,
+				"size": "3290*2050*650", 
+				"description": "Набор мебели “Пикалино” без кровати, Фасад МДФ"
+			},
+			{
+				"id": 6,
+				"title": "КС-013-2",
+				"materials": null,
+				"price": null,
+				"size": "3290*2050*650", 
+				"description": "Описание продукта 6"
+			},
+			{
+				"id": 7,
+				"title": "КС-025",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "
+					Набор мебели для детской комнаты “Василина”: 
+					Размер кровати L*H*B=2042*670*850мм,
+					Размер стола L*H*B=1000*1640*560мм,
+					Размер шкафа настенного L*H*B=2084*344*300мм,
+					Размершкафа для книг L*H*B=800*1824*330мм,
+					Размер шкафа для одежды L*H*B=800*1824*560мм".
+			},
+			{
+				"id": 8,
+				"title": "КС-025",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "
+					Набор мебели для детской комнаты “Василина”: 
+					Размер кровати L*H*B=2042*670*850мм,
+					Размер стола L*H*B=1000*1640*560мм,
+					Размер шкафа настенного L*H*B=2084*344*300мм,
+					Размершкафа для книг L*H*B=800*1824*330мм,
+					Размер шкафа для одежды L*H*B=800*1824*560мм".
+			}
+		],
+		"hall" : [
+			{
+				"id": 1,
+				"title": "КС-006",
+				"materials": null,
+				"price": null,
+				"size": "2020*2010*580", 
+				"description": "Прихожая “Уют”. Фасад мдф “Классик”"
+			},
+			{
+				"id": 2,
+				"title": "КС-006-15",
+				"materials": null,
+				"price": null,
+				"size": "1226*2110*600", 
+				"description": "Шкаф для прихожей. Фасад мдф “Cити”"
+			},
+			{
+				"id": 3,
+				"title": "КС-006-16",
+				"materials": null,
+				"price": null,
+				"size": "1426*2060*566", 
+				"description": "Шкаф для прихожей. Фасад МДФ профиль лабиринт"
+			},
+			{
+				"id": 4,
+				"title": "КС-006-17",
+				"materials": null,
+				"price": null,
+				"size": "1826*2210*800", 
+				"description": "Шкаф для одежды (шкаф-купе)"
+			},
+			{
+				"id": 5,
+				"title": "КС-006-17",
+				"materials": null,
+				"price": null,
+				"size": "1826*2210*800", 
+				"description": "Шкаф для одежды (шкаф-купе)"
+			},
+			{
+				"id": 6,
+				"title": "КС-006-18",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "Шкаф для одежды (шкаф-купе)"
+			},
+			{
+				"id": 7,
+				"title": "КС-006-19",
+				"materials": null,
+				"price": null,
+				"size": "845*2160*630", 
+				"description": "Шкаф для одежды угловой"
+			},
+			{
+				"id": 8,
+				"title": "КС-006-19",
+				"materials": null,
+				"price": null,
+				"size": "845*2160*630", 
+				"description": "Шкаф для одежды угловой"
+			},
+			{
+				"id": 9,
+				"title": "КС-006-020",
+				"materials": null,
+				"price": null,
+				"size": "1002*2047*435", 
+				"description": "Шкаф для прихожей"
+			},
+			{
+				"id": 10,
+				"title": "КС-006-021",
+				"materials": null,
+				"price": null,
+				"size": "1000*2047*424", 
+				"description": "Шкаф для прихожей"
+			},
+			{
+				"id": 11,
+				"title": "КС-006",
+				"materials": null,
+				"price": null,
+				"size": "1600*2052*435", 
+				"description": "Набор мебели для прихожей ”Уют 1,6м”"
+			}
+		],
+		"komod" : [
+			{
+				"id": 1,
+				"title": "КС-008-01",
+				"materials": null,
+				"price": null,
+				"size": "840*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 2,
+				"title": "КС-008-01-1",
+				"materials": null,
+				"price": null,
+				"size": "840*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 3,
+				"title": "КС008-02-1",
+				"materials": null,
+				"price": null,
+				"size": "840*1090*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 4,
+				"title": "КС008-02-2",
+				"materials": null,
+				"price": null,
+				"size": "840*1090*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 5,
+				"title": "КС-008-03-1",
+				"materials": null,
+				"price": null,
+				"size": "1040*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 6,
+				"title": "КС-008-03-2",
+				"materials": null,
+				"price": null,
+				"size": "1040*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 7,
+				"title": "КС-008-04-1",
+				"materials": null,
+				"price": null,
+				"size": "440*1340*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 8,
+				"title": "КС-008-04-2",
+				"materials": null,
+				"price": null,
+				"size": "440*1340*520", 
+				"description": "Комод"
+			}
+		],
+		"officeTable" : [
+			{
+				"id": 1,
+				"title": "Стол аудиторный",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "Стол аудиторный"
+			},
+			{
+				"id": 2,
+				"title": "КС-003-09",
+				"materials": null,
+				"price": null,
+				"size": "1605*750*755", 
+				"description": "Стол офисный с приставкой (габаритные размеры приставки- L*H*B=1005*725*705). Возможно приобретение каждого элемента отдельно"
+			},
+			{
+				"id": 3,
+				"title": "КС-003-13",
+				"materials": null,
+				"price": null,
+				"size": "1405*705*750", 
+				"description": "Стол офисный двухтумбовый"
+			}
+		],
+		"officeShkaf" : [
+			{
+				"id": 1,
+				"title": "КС-005-01",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*580", 
+				"description": "Шкаф офисный для одежды"
+			},
+			{
+				"id": 2,
+				"title": "КС-005-03",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 3,
+				"title": "КС-005-04",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 4,
+				"title": "КС-005-06",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 5,
+				"title": "КС-005-07",
+				"materials": null,
+				"price": null,
+				"size": "400*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 6,
+				"title": "КС-005-09",
+				"materials": null,
+				"price": null,
+				"size": "400*1840*430", 
+				"description": "Шкаф офисный"
+			}
+		],
+		"divan" : [
+			{
+				"id": 1,
+				"title": "КС-016-1",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 2,
+				"title": "КС-016-2",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 3,
+				"title": "КС-016-3",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 4,
+				"title": "КС-016-4",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 5,
+				"title": "КС-017",
+				"materials": null,
+				"price": null,
+				"size": "1430*850*950", 
+				"description": "Диван-кровать “Джесика” (разложенный L*H*B=1430*850*2020 мм)"
+			},
+			{
+				"id": 6,
+				"title": "КС-023-1",
+				"materials": null,
+				"price": null,
+				"size": "1740*850*950", 
+				"description": "Диван-кровать “Джесика” (разложенный L*H*B=1740*850*2020 мм)"
+			},
+			{
+				"id": 7,
+				"title": "КС-023-2",
+				"materials": null,
+				"price": null,
+				"size": "940*850*950", 
+				"description": "Диван-кровать “Джесика” (разложенный L*H*B=940*850*2020 мм)"
+			},
+			{
+				"id": 8,
+				"title": "КС-015-1",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 9,
+				"title": "КС-015-2",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 10,
+				"title": "КС-015-3",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 11,
+				"title": "КС-015-4",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 12,
+				"title": "КС-016-1",
+				"materials": null,
+				"price": null,
+				"size": "2080*850*720", 
+				"description": "Тахта 'Алеся'"
+			},
+			{
+				"id": 13,
+				"title": "КС-016-2",
+				"materials": null,
+				"price": null,
+				"size": "2080*850*720", 
+				"description": "Тахта 'Алеся'"
+			},
+			{
+				"id": 14,
+				"title": null,
+				"materials": null,
+				"price": null,
+				"size": "2450*1025*1540", 
+				"description": "Диван “Лугано”"
+			},
+			{
+				"id": 15,
+				"title": null,
+				"materials": null,
+				"price": null,
+				"size": "2150*920*950(1200)", 
+				"description": "Набор мебели для отдыха “Лира” (кресло L*H*B=830*920*950 мм)"
+			},
+			{
+				"id": 16,
+				"title": "КС-023-05",
+				"materials": null,
+				"price": null,
+				"size": "360*430*290", 
+				"description": "Банкетка"
+			}
+		],
+		"bookTable" : [
+			{
+				"id": 1,
+				"title": "КС-009-01",
+				"materials": null,
+				"price": null,
+				"size": "1600(340)*750*800", 
+				"description": "Стол-тумба"
+			},
+			{
+				"id": 2,
+				"title": "КС-009-02",
+				"materials": null,
+				"price": null,
+				"size": "1300(670)*750*800", 
+				"description": "Стол-тумба"
+			},
+			{
+				"id": 3,
+				"title": "КС-009-03",
+				"materials": null,
+				"price": null,
+				"size": "1200*750*650", 
+				"description": "Стол-тумба"
+			}
+		],
+		"kitchen" : [
+			{
+				"id": 1,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1600", 
+				"description": "Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 2,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1600", 
+				"description": "Кухня 1,6м. Профиль фасада – мыло"
+			},
+			{
+				"id": 3,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – модус"
+			},
+			{
+				"id": 4,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – классик"
+			},
+			{
+				"id": 5,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – волна"
+			},
+			{
+				"id": 6,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1600", 
+				"description": "Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 7,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – модус"
+			},
+			{
+				"id": 8,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "2000", 
+				"description": "Кухня 2,0м. Профиль фасада – модус"
+			},
+			{
+				"id": 9,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "2000", 
+				"description": "Кухня 2,0м. Профиль фасада – волна"
+			},
+			{
+				"id": 10,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "2000*1300", 
+				"description": "Кухня 2,0м*1,3м. Профиль фасада – классик"
+			},
+			{
+				"id": 11,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "?", 
+				"description": "??? Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 12,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "?", 
+				"description": "???Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 13,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – ретро"
+			},
+			{
+				"id": 14,
+				"title": "КС-018",
+				"materials": null,
+				"price": null,
+				"size": "1610*1210", 
+				"description": "Скамья угловая"
+			},
+			{
+				"id": 15,
+				"title": "КС-020-02 ",
+				"materials": null,
+				"price": null,
+				"size": "320*460*320", 
+				"description": "Табурет кухонный"
+			},
+			{
+				"id": 16,
+				"title": "КС-019-02",
+				"materials": null,
+				"price": null,
+				"size": "760*1004*604", 
+				"description": "Стол обеденный"
+			}
+		],
+		"bedroom" : [
+			{
+				"id": 1,
+				"title": "КС-022",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "
+					Набор мебели для спальни “Карина”:
+					шкаф для одежды (1760*2180*560),
+					комод (1052*820*446),
+					кровать (2180*985*1700),
+					тумба(539*474*403),
+					зеркало (1000*800)"
+			},
+			{
+				"id": 2,
+				"title": "КС-014-1",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "
+					Набор мебели для спальни “Соня-1”: 
+					шкаф для одежды (1500*2160*580), 
+					комод (840*1090*520), 
+					кровать(1680*884(634)*2066), 
+					тумба (460*510*430), 
+					зеркало (1000*820)"
+			},
+			{
+				"id": 3,
+				"title": "КС-014-2",
+				"materials": null,
+				"price": null,
+				"size": "", 
+				"description": "
+					Набор мебели для спальни “Соня-4”: 
+					шкаф угловой для одежды (930*2160*930),
+					комод (1040*766*520), 
+					кровать(1680*884(384)*2066), 
+					тумба (450*380*430), 
+					зеркало(1000*820), 
+					cтелаж угловой(350*2160*560)"
+			},
+			{
+				"id": 4,
+				"title": "КС-014-3",
+				"materials": null,
+				"price": null,
+				"size": "", 
+				"description": 
+					Набор мебели для спальни “Соня-3”: 
+					шкаф для одежды(500*2160*580), 
+					шкаф для белья (500*2160*580), 
+					комод (840*1090*520), 
+					кровать (1680*884(634)*2066), 
+					тумба (460*510*430), 
+					зеркало (1000*820)"
+			},
+			{
+				"id": 5,
+				"title": "КС-014-4",
+				"materials": null,
+				"price": null,
+				"size": "", 
+				"description": 
+					Набор мебели для спальни “Соня-3”: 
+					шкаф для одежды(500*2160*580), 
+					шкаф для белья (500*2160*580), 
+					комод (840*1090*520), 
+					кровать (1680*884(634)*2066), 
+					тумба (460*510*430), 
+					зеркало (1000*820)"
+			}
+		],
+		"wall" : [
+			{
+				"id": 1,
+				"title": "КС-011",
+				"materials": null,
+				"price": null,
+				"size": "2850*2160*480", 
+				"description": "Набор корпусной мебели для общей комнаты “КРИСТИНА”"
+			},
+			{
+				"id": 2,
+				"title": "КС-010",
+				"materials": null,
+				"price": null,
+				"size": "2000*2192*520", 
+				"description": "Набор корпусной мебели для общей комнаты “Олимп”. Фасады МДФ"
+			},
+			{
+				"id": 3,
+				"title": "КС-028",
+				"materials": null,
+				"price": null,
+				"size": "2250*2077*516", 
+				"description": "Набор корпусной мебели для общей комнаты “Виктория”"
+			},
+			{
+				"id": 4,
+				"title": "КС-029 ",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "
+					Набор корпусной мебели для общей комнаты “Стефани”: 
+					шкаф настенный (500*1200*319),
+					тумба для телерадиоаппаратуры (1200*417*483),
+					шкаф настенный (1200*300*289), 
+					полка (1537*404*196),
+					полка (1200*120*216)"
+			},
+			{
+				"id": 5,
+				"title": "КС-027",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "
+					Набор корпусной мебели для общей комнаты “Каскад”:
+					шкаф с ветриной (500*1960*420), 
+					тумба (784*989*420), 
+					тумба для телерадиоаппаратуры (1400*510*420),
+					полка (1306*404)"
+			}
+		],
+		"shoesShkaf" : [
+			{
+				"id": 1,
+				"title": "КС-012-01",
+				"materials": null,
+				"price": null,
+				"size": "1300*1070*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 2,
+				"title": "КС-012-01",
+				"materials": null,
+				"price": null,
+				"size": "1300*1070*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 3,
+				"title": "КС-012-02",
+				"materials": null,
+				"price": null,
+				"size": "910*900*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 4,
+				"title": "КС-012-03",
+				"materials": null,
+				"price": null,
+				"size": "610*900*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 5,
+				"title": "КС-012-04",
+				"materials": null,
+				"price": null,
+				"size": "602*900*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 6,
+				"title": "КС-012-04",
+				"materials": null,
+				"price": null,
+				"size": "602*900*375", 
+				"description": "Тумба для обуви"
+			}
+		],
+	}
 	
 }
