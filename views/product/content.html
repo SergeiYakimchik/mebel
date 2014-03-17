@@ -3,8 +3,8 @@
 	
 	<div class="row">
 		<div class="col-md-6">
-			<a href="#/product/{{product.id}}" class="img-thumbnail">
-          		<img class="product-img" ng-src="{{product.img}}">
+			<a data-lightbox="image" title="{{product.title}}" href="img/products/{{type}}/{{id}}.jpg" class="img-thumbnail">
+          		<img class="product-img" ng-src="img/products/{{type}}/{{id}}.jpg">
         	</a>
 		</div>
 		
@@ -19,27 +19,29 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
+					<tr ng-show="product.materials">
 						<td>Материал:</td><td> {{product.materials}}</td>
 					</tr>
-					<tr>
+					<tr ng-show="product.manufacturer">
 						<td>Производитель:</td><td> {{product.manufacturer}}</td>
 					</tr>
-					<tr>
+					<tr ng-show="product.size">
 						<td>Габариты:</td><td> {{product.size}}</td>
 					</tr>
 				</tbody>
 			</table>
 			
-			<div class="col-md-12 product-price"><label>Цена:</label></div>
-			<div class="col-md-12 product-price">{{getPrice(product.price)}}</div>
-			
-			<div class="col-md-12 product-button">
-				<button class="btn btn-success" data-toggle="modal" data-target="#buyModal" ng-click="buy(product)">Заказать</button>
-			</div>
-			
-			<div class="col-md-12 product-price-info">
-				 * Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара.
+			<div id="price" ng-show="product.price">
+				<div class="col-md-12 product-price"><label>Цена:</label></div>
+				<div class="col-md-12 product-price">{{getPrice(product.price)}}</div>
+				
+				<div class="col-md-12 product-button">
+					<button class="btn btn-success" data-toggle="modal" data-target="#buyModal" ng-click="buy(product)">Заказать</button>
+				</div>
+				
+				<div class="col-md-12 product-price-info">
+					 * Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара.
+				</div>
 			</div>
 		
 		</div>

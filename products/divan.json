@@ -1,0 +1,132 @@
+﻿{
+	"products" : [
+			{
+				"id": 1,
+				"title": "КС-016-1",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 2,
+				"title": "КС-016-2",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 3,
+				"title": "КС-016-3",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 4,
+				"title": "КС-016-4",
+				"materials": null,
+				"price": null,
+				"size": "2080*1060", 
+				"description": "Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
+			},
+			{
+				"id": 5,
+				"title": "КС-017",
+				"materials": null,
+				"price": null,
+				"size": "1430*850*950", 
+				"description": "Диван-кровать “Джесика” (разложенный L*H*B=1430*850*2020 мм)"
+			},
+			{
+				"id": 6,
+				"title": "КС-023-1",
+				"materials": null,
+				"price": null,
+				"size": "1740*850*950", 
+				"description": "Диван-кровать “Джесика” (разложенный L*H*B=1740*850*2020 мм)"
+			},
+			{
+				"id": 7,
+				"title": "КС-023-2",
+				"materials": null,
+				"price": null,
+				"size": "940*850*950", 
+				"description": "Диван-кровать “Джесика” (разложенный L*H*B=940*850*2020 мм)"
+			},
+			{
+				"id": 8,
+				"title": "КС-015-1",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 9,
+				"title": "КС-015-2",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 10,
+				"title": "КС-015-3",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 11,
+				"title": "КС-015-4",
+				"materials": null,
+				"price": null,
+				"size": "1520*830*850", 
+				"description": "Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
+			},
+			{
+				"id": 12,
+				"title": "КС-016-1",
+				"materials": null,
+				"price": null,
+				"size": "2080*850*720", 
+				"description": "Тахта 'Алеся'"
+			},
+			{
+				"id": 13,
+				"title": "КС-016-2",
+				"materials": null,
+				"price": null,
+				"size": "2080*850*720", 
+				"description": "Тахта 'Алеся'"
+			},
+			{
+				"id": 14,
+				"title": null,
+				"materials": null,
+				"price": null,
+				"size": "2450*1025*1540", 
+				"description": "Диван “Лугано”"
+			},
+			{
+				"id": 15,
+				"title": null,
+				"materials": null,
+				"price": null,
+				"size": "2150*920*950(1200)", 
+				"description": "Набор мебели для отдыха “Лира” (кресло L*H*B=830*920*950 мм)"
+			},
+			{
+				"id": 16,
+				"title": "КС-023-05",
+				"materials": null,
+				"price": null,
+				"size": "360*430*290", 
+				"description": "Банкетка"
+			}
+		]	
+}

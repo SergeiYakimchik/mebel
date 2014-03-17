@@ -1,0 +1,132 @@
+﻿{
+	"products" : [
+			{
+				"id": 1,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1600", 
+				"description": "Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 2,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1600", 
+				"description": "Кухня 1,6м. Профиль фасада – мыло"
+			},
+			{
+				"id": 3,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – модус"
+			},
+			{
+				"id": 4,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – классик"
+			},
+			{
+				"id": 5,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – волна"
+			},
+			{
+				"id": 6,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1600", 
+				"description": "Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 7,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – модус"
+			},
+			{
+				"id": 8,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "2000", 
+				"description": "Кухня 2,0м. Профиль фасада – модус"
+			},
+			{
+				"id": 9,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "2000", 
+				"description": "Кухня 2,0м. Профиль фасада – волна"
+			},
+			{
+				"id": 10,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "2000*1300", 
+				"description": "Кухня 2,0м*1,3м. Профиль фасада – классик"
+			},
+			{
+				"id": 11,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "?", 
+				"description": "??? Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 12,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "?", 
+				"description": "???Кухня 1,6м. Профиль фасада – модус"
+			},
+			{
+				"id": 13,
+				"title": "Кухня ",
+				"materials": null,
+				"price": null,
+				"size": "1800", 
+				"description": "Кухня 1,8м. Профиль фасада – ретро"
+			},
+			{
+				"id": 14,
+				"title": "КС-018",
+				"materials": null,
+				"price": null,
+				"size": "1610*1210", 
+				"description": "Скамья угловая"
+			},
+			{
+				"id": 15,
+				"title": "КС-020-02 ",
+				"materials": null,
+				"price": null,
+				"size": "320*460*320", 
+				"description": "Табурет кухонный"
+			},
+			{
+				"id": 16,
+				"title": "КС-019-02",
+				"materials": null,
+				"price": null,
+				"size": "760*1004*604", 
+				"description": "Стол обеденный"
+			}
+		]	
+}

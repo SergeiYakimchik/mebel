@@ -12,7 +12,11 @@ define(['appModule'], function(Shop)
 			});
 	 		
 	 		$scope.getPrice = function(value) {
-				return value * $scope.currency.USD_BUY;
+	 			var price;
+	 			if ($scope.currency) {
+	 				price = value * $scope.currency.USD_BUY
+	 			}
+				return price;
 			};
 	 		
 	 		

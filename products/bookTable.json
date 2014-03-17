@@ -1,0 +1,28 @@
+﻿{
+	"products" : [
+			{
+				"id": 1,
+				"title": "КС-009-01",
+				"materials": null,
+				"price": null,
+				"size": "1600(340)*750*800", 
+				"description": "Стол-тумба"
+			},
+			{
+				"id": 2,
+				"title": "КС-009-02",
+				"materials": null,
+				"price": null,
+				"size": "1300(670)*750*800", 
+				"description": "Стол-тумба"
+			},
+			{
+				"id": 3,
+				"title": "КС-009-03",
+				"materials": null,
+				"price": null,
+				"size": "1200*750*650", 
+				"description": "Стол-тумба"
+			}
+		]	
+}

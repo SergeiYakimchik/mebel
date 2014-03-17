@@ -11,8 +11,6 @@ define(['appModule'], function(Shop)
 				
 				
 				if (!$rootScope.currency) {
-					$http.defaults.useXDomain = true;
-					
 					$http({
 		 			    url: 'http://wm.shadurin.com/select.php',
 		 			    method: 'GET'

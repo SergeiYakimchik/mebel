@@ -1,0 +1,92 @@
+﻿{
+		"products" : [
+			{
+				"id": 1,
+				"title": "КС-006",
+				"materials": null,
+				"price": null,
+				"size": "2020*2010*580", 
+				"description": "Прихожая “Уют”. Фасад мдф “Классик”"
+			},
+			{
+				"id": 2,
+				"title": "КС-006-15",
+				"materials": null,
+				"price": null,
+				"size": "1226*2110*600", 
+				"description": "Шкаф для прихожей. Фасад мдф “Cити”"
+			},
+			{
+				"id": 3,
+				"title": "КС-006-16",
+				"materials": null,
+				"price": null,
+				"size": "1426*2060*566", 
+				"description": "Шкаф для прихожей. Фасад МДФ профиль лабиринт"
+			},
+			{
+				"id": 4,
+				"title": "КС-006-17",
+				"materials": null,
+				"price": null,
+				"size": "1826*2210*800", 
+				"description": "Шкаф для одежды (шкаф-купе)"
+			},
+			{
+				"id": 5,
+				"title": "КС-006-17",
+				"materials": null,
+				"price": null,
+				"size": "1826*2210*800", 
+				"description": "Шкаф для одежды (шкаф-купе)"
+			},
+			{
+				"id": 6,
+				"title": "КС-006-18",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "Шкаф для одежды (шкаф-купе)"
+			},
+			{
+				"id": 7,
+				"title": "КС-006-19",
+				"materials": null,
+				"price": null,
+				"size": "845*2160*630", 
+				"description": "Шкаф для одежды угловой"
+			},
+			{
+				"id": 8,
+				"title": "КС-006-19",
+				"materials": null,
+				"price": null,
+				"size": "845*2160*630", 
+				"description": "Шкаф для одежды угловой"
+			},
+			{
+				"id": 9,
+				"title": "КС-006-020",
+				"materials": null,
+				"price": null,
+				"size": "1002*2047*435", 
+				"description": "Шкаф для прихожей"
+			},
+			{
+				"id": 10,
+				"title": "КС-006-021",
+				"materials": null,
+				"price": null,
+				"size": "1000*2047*424", 
+				"description": "Шкаф для прихожей"
+			},
+			{
+				"id": 11,
+				"title": "КС-006",
+				"materials": null,
+				"price": null,
+				"size": "1600*2052*435", 
+				"description": "Набор мебели для прихожей ”Уют 1,6м”"
+			}
+		]		
+}

@@ -1,0 +1,52 @@
+﻿{
+	"products" : [
+			{
+				"id": 1,
+				"title": "КС-012-01",
+				"materials": null,
+				"price": null,
+				"size": "1300*1070*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 2,
+				"title": "КС-012-01",
+				"materials": null,
+				"price": null,
+				"size": "1300*1070*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 3,
+				"title": "КС-012-02",
+				"materials": null,
+				"price": null,
+				"size": "910*900*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 4,
+				"title": "КС-012-03",
+				"materials": null,
+				"price": null,
+				"size": "610*900*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 5,
+				"title": "КС-012-04",
+				"materials": null,
+				"price": null,
+				"size": "602*900*375", 
+				"description": "Тумба для обуви"
+			},
+			{
+				"id": 6,
+				"title": "КС-012-04",
+				"materials": null,
+				"price": null,
+				"size": "602*900*375", 
+				"description": "Тумба для обуви"
+			}
+		]
+}

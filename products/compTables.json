@@ -1,0 +1,133 @@
+﻿{
+	"products":[
+			{
+				"id": 1,
+				"title": "КС-003-01",
+				"materials": null,
+				"price": null,
+				"size": "800*1420*560",
+				"description": "Описание продукта 1"
+			},
+			{
+				"id": 2,
+				"title": "КС-003-02",
+				"materials": null,
+				"price": null,
+				"size":"1030*1420*560",
+				"description": "Описание продукта 2"
+			},
+			{
+				"id": 3,
+				"title": " КС-003-03",
+				"materials": null,
+				"price": null,
+				"size": "1250*1420*650", 
+				"description": "Описание продукта 3"
+			},
+			{
+				"id": 4,
+				"title": " КС-003-04",
+				"materials": null,
+				"price": null,
+				"size": "1125*850*560", 
+				"description": "Описание продукта 4"
+			},
+			{
+				"id": 5,
+				"title": "КС-003-05",
+				"materials": null,
+				"price": null,
+				"size": "1150*735*1290", 
+				"description": "Возможно исполнение тумбы слева или справа"
+			},
+			{
+				"id": 6,
+				"title": "КС-003-06",
+				"materials": null,
+				"price": null,
+				"size": "1050*735*1050", 
+				"description": "Описание продукта 6"
+			},
+			{
+				"id": 7,
+				"title": "КС-003-07",
+				"materials": null,
+				"price": null,
+				"size": "1050*735*1050", 
+				"description": "Описание продукта 7"
+			},
+			{
+				"id": 8,
+				"title": "КС-003-08",
+				"materials": null,
+				"price": null,
+				"size": "970*750*560", 
+				"description": "Описание продукта 8"
+			},
+			{
+				"id": 9,
+				"title": "КС-003-14",
+				"materials": null,
+				"price": null,
+				"size": "836*610*670", 
+				"description": "Описание продукта 9"
+			},
+			{
+				"id": 10,
+				"title": "КС-003-15",
+				"materials": null,
+				"price": null,
+				"size": "1430*1105*620", 
+				"description": "Описание продукта 10"
+			},
+			{
+				"id": 11,
+				"title": "КС-003-017",
+				"materials": null,
+				"price": null,
+				"size": "1300*1270*900", 
+				"description": "Описание продукта 11"
+			},
+			{
+				"id": 12,
+				"title": "КС-003-017",
+				"materials": null,
+				"price": null,
+				"size": "1300*1270*900", 
+				"description": "Описание продукта 12"
+			},
+			{
+				"id": 13,
+				"title": "КС-003-18",
+				"materials": null,
+				"price": null,
+				"size": "1302*850*560", 
+				"description": "Описание продукта 13"
+			},
+			{
+				"id": 14,
+				"title": "КС-003-019",
+				"materials": null,
+				"price": null,
+				"size": "1300*1400*650", 
+				"description": "Описание продукта 14"
+			},
+			{
+				"id": 15,
+				"title": "КС-003-20",
+				"materials": null,
+				"price": null,
+				"size": "1520*2010*900", 
+				"description": "Описание продукта 15"
+			},
+			{
+				"id": 16,
+				"title": "КС-003-20",
+				"materials": null,
+				"price": null,
+				"size": "1520*2010*900", 
+				"description": "Описание продукта 16"
+			}
+	
+	]
+}

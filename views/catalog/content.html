@@ -5,8 +5,8 @@
 				<div class="col-sm-4" ng-show="products[$index+0]">
 					<div class="catalog-product">
 						<h4>{{products[$index+0].title}}</h4>
-						<a href="#/product/{{products[$index+0].id}}" class="img-thumbnail">
-          					<img class="catalog-img" ng-src="{{products[$index+0].img}}">
+						<a href="#/product/{{type}}/{{products[$index+0].id}}" class="img-thumbnail">
+          					<img class="catalog-img" ng-src="{{buildImgSource(products[$index+0].id)}}">
         				</a>
         				<div id="price"></div>
 					</div>
@@ -14,8 +14,8 @@
 				<div class="col-sm-4" ng-show="products[$index+1]">
 					<div class="catalog-product">
 						<h4>{{products[$index+1].title}}</h4>
-						<a href="#/product/{{products[$index+1].id}}" class="img-thumbnail">
-          					<img class="catalog-img" ng-src="{{products[$index+1].img}}">
+						<a href="#/product/{{type}}/{{products[$index+1].id}}" class="img-thumbnail">
+          					<img class="catalog-img" ng-src="{{buildImgSource(products[$index+1].id)}}">
         				</a>
         				<div id="price"></div>
 					</div>
@@ -23,8 +23,8 @@
 				<div class="col-sm-4" ng-show="products[$index+2]">
 					<div class="catalog-product">
 						<h4>{{products[$index+2].title}}</h4>
-						<a href="#/product/{{products[$index+2].id}}" class="img-thumbnail">
-          					<img class="catalog-img" ng-src="{{products[$index+2].img}}">
+						<a href="#/product/{{type}}/{{products[$index+2].id}}" class="img-thumbnail">
+          					<img class="catalog-img" ng-src="{{buildImgSource(products[$index+2].id)}}">
         				</a>
         				<div id="price"></div>
 						

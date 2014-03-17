@@ -1,0 +1,68 @@
+﻿{
+	"products" : [
+			{
+				"id": 1,
+				"title": "КС-008-01",
+				"materials": null,
+				"price": null,
+				"size": "840*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 2,
+				"title": "КС-008-01-1",
+				"materials": null,
+				"price": null,
+				"size": "840*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 3,
+				"title": "КС008-02-1",
+				"materials": null,
+				"price": null,
+				"size": "840*1090*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 4,
+				"title": "КС008-02-2",
+				"materials": null,
+				"price": null,
+				"size": "840*1090*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 5,
+				"title": "КС-008-03-1",
+				"materials": null,
+				"price": null,
+				"size": "1040*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 6,
+				"title": "КС-008-03-2",
+				"materials": null,
+				"price": null,
+				"size": "1040*770*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 7,
+				"title": "КС-008-04-1",
+				"materials": null,
+				"price": null,
+				"size": "440*1340*520", 
+				"description": "Комод"
+			},
+			{
+				"id": 8,
+				"title": "КС-008-04-2",
+				"materials": null,
+				"price": null,
+				"size": "440*1340*520", 
+				"description": "Комод"
+			}
+		]
+}
