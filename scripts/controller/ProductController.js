@@ -19,6 +19,7 @@ define(['appModule'], function(Shop)
 	 			var url;
 	 			
 	 			$scope.type = $routeParams.type;
+	 			$scope.id = $routeParams.id;
 	 			
 	 			if (angular.isUndefined($scope.type)) {
 	 				url = 'products.json'

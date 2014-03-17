@@ -18,13 +18,6 @@ define([], function()
                     'controller/IndexController'
                 ]
             },
-//            '/catalog': {
-//                templateUrl : 'views/catalog.html',
-//                dependencies: [
-//                    'controller/CatalogController',
-//                    'service/ProductService'
-//                ]
-//            },
             '/catalog/:type': {
                 templateUrl : 'views/catalog.html',
                 dependencies: [
@@ -40,14 +33,6 @@ define([], function()
                     'service/ProductService'
                 ]
             },
-//            '/product/:id': {
-//                templateUrl : 'views/product.html',
-//                dependencies: [
-//                    'controller/ProductController',
-//                    'service/OrderService',
-//                    'service/ProductService'
-//                ]
-//            },
             '/interesting': {
                 templateUrl : 'views/interesting.html',
                 dependencies: [
