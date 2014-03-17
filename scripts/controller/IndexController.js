@@ -12,7 +12,7 @@ define(['appModule'], function(Shop)
 	 		
 	 		$scope.addSlide = function(i) {
 	 			slides.push({
-	 				image: 'img/products/' + (i+1) + '.jpg',
+	 				image: 'img/products/large/' + (i+1) + '.jpg',
 	 				text: ['','','',''][slides.length % 4] + ' ' +
 	 				['', '', '', ''][slides.length % 4]
 	 			});
