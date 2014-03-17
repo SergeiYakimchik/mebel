@@ -32,14 +32,6 @@ define(['appModule'], function(Shop)
 			
 			$scope.init();
 			
-	 		$scope.buildImgSource = function(id) {
-	 			if (angular.isUndefined(id)) {
-	 				return;
-	 			} else {
-	 				return 'img/products/' + $scope.type + '/' + id + '.jpg';
-	 			}
-			};
-	 		
 	 		
 	 	}
 	]);
