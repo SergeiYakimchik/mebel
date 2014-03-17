@@ -11,17 +11,18 @@ define(['appModule'], function(Shop)
 	 		
 	 		$scope.init = function() {
 	 			
+	 			$scope.type = $routeParams.type;
+	 			
 	 			var url;
 	 			
-	 			if (angular.isUndefined($routeParams.type)) {
+	 			if (angular.isUndefined($scope.type)) {
 	 				url = 'products.json'
 	 			} else {
-	 				url = 'products/'+$routeParams.type+'.json'
+	 				url = 'products/'+$scope.type+'.json'
 	 			}
 	 			
-	 			console.log(url);
-	 			ProductService.getProducts(url).success(function(data) {
-		 			$scope.products = data.products;
+	 			ProductService.getProducts(url).success(function(response) {
+		 			$scope.products = response.products;
 				}).error(function() {
 					console.log('error');
 					//$location.path('/catalog');
@@ -35,7 +36,7 @@ define(['appModule'], function(Shop)
 	 			if (angular.isUndefined(id)) {
 	 				return;
 	 			} else {
-	 				return 'img/products/' + $routeParams.type + '/' + id + '.jpg';
+	 				return 'img/products/' + $scope.type + '/' + id + '.jpg';
 	 			}
 			};
 	 		

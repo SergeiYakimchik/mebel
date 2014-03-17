@@ -2,27 +2,39 @@ define(['appModule'], function(Shop)
 {
 	Shop.lazy.controller('ProductController', 
 	[
-	 	'l10n',
 	 	'$routeParams',
 	 	'$scope',
 	 	'OrderService',
 	 	'ProductService',
 
-	 	function(l10n, $routeParams, $scope, OrderService, ProductService){
-	 		
-	 		l10n.init();
+	 	function($routeParams, $scope, OrderService, ProductService){
 	 		
 	 		$scope.request = {};
 	 		$scope.product = {};
 	 		$scope.products = [];
 	 		$scope.seeAlsoProducts = [];
-	 		$scope.id = $routeParams.id;
 	 		
-	 		ProductService.getProducts().success(function(response) {
-	 			$scope.products = response.products;
-	 			$scope.seeAlsoProducts = $scope.products.getRandom(3);
-	 			$scope.product = searchById($scope.id);
-			});
+	 		$scope.init = function() {
+	 			
+	 			var url;
+	 			
+	 			$scope.type = $routeParams.type;
+	 			
+	 			if (angular.isUndefined($scope.type)) {
+	 				url = 'products.json'
+	 			} else {
+	 				url = 'products/'+$scope.type+'.json'
+	 			}
+	 			
+	 			ProductService.getProducts(url).success(function(response) {
+	 				$scope.products = response.products;
+		 			$scope.seeAlsoProducts = $scope.products.getRandom(3);
+		 			$scope.product = searchById($routeParams.id);
+				});
+	 			
+			};
+			
+			$scope.init();
 	 		
 	 		var searchById = function(id) {
 	 			var product = {};
@@ -48,6 +60,14 @@ define(['appModule'], function(Shop)
 			
 			$scope.sendRequest = function() {
 				OrderService.send($scope.request);
+			};
+			
+	 		$scope.buildImgSource = function(id) {
+	 			if (angular.isUndefined(id)) {
+	 				return;
+	 			} else {
+	 				return 'img/products/' + $scope.type + '/' + id + '.jpg';
+	 			}
 			};
 	 		
 	 	}
