@@ -25,6 +25,13 @@ define([], function()
                     'service/ProductService'
                 ]
             },
+            '/catalog/:type': {
+                templateUrl : 'views/catalog.html',
+                dependencies: [
+                    'controller/CatalogController',
+                    'service/ProductService'
+                ]
+            },
             '/product/:id': {
                 templateUrl : 'views/product.html',
                 dependencies: [

@@ -1,0 +1,76 @@
+﻿{
+	"products" : [
+			{
+				"id": 1,
+				"title": "КС-005-01",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*580", 
+				"description": "Шкаф офисный для одежды"
+			},
+			{
+				"id": 2,
+				"title": "КС-005-03",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 3,
+				"title": "КС-005-04",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 4,
+				"title": "КС-005-06",
+				"materials": null,
+				"price": null,
+				"size": "800*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 5,
+				"title": "КС-005-07",
+				"materials": null,
+				"price": null,
+				"size": "400*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 6,
+				"title": "КС-005-09",
+				"materials": null,
+				"price": null,
+				"size": "400*1840*430", 
+				"description": "Шкаф офисный"
+			},
+			{
+				"id": 7,
+				"title": "Стол аудиторный",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "Стол аудиторный"
+			},
+			{
+				"id": 8,
+				"title": "КС-003-09",
+				"materials": null,
+				"price": null,
+				"size": "1605*750*755", 
+				"description": "Стол офисный с приставкой (габаритные размеры приставки- L*H*B=1005*725*705). Возможно приобретение каждого элемента отдельно"
+			},
+			{
+				"id": 9,
+				"title": "КС-003-13",
+				"materials": null,
+				"price": null,
+				"size": "1405*705*750", 
+				"description": "Стол офисный двухтумбовый"
+			}
+		]	
+}

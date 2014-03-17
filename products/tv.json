@@ -1,0 +1,100 @@
+﻿{
+	"products":[
+			{
+				"id": 1,
+				"title": "КС-004-01",
+				"materials": null,
+				"price": null,
+				"size": "642*700*450", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 2,
+				"title": "КС-004-02",
+				"materials": null,
+				"price": null,
+				"size": "832*700*480", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 3,
+				"title": "КС-004-03",
+				"materials": null,
+				"price": null,
+				"size": "1000*650*480", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 4,
+				"title": "КС-004-04",
+				"materials": null,
+				"price": null,
+				"size": "1000*750*480", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 5,
+				"title": "КС-004-05",
+				"materials": null,
+				"price": null,
+				"size": "1000*700*480", 
+				"description": "Тумба для телерадиоаппаратуры. Заменить каринку с сайта"
+			},
+			{
+				"id": 6,
+				"title": "КС-004-06",
+				"materials": null,
+				"price": null,
+				"size": "675*650*450", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 7,
+				"title": "КС-004-07",
+				"materials": null,
+				"price": null,
+				"size": "1050*770*500", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 8,
+				"title": "КС-004-8",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*414", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 9,
+				"title": "КС-004-9",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*454", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 10,
+				"title": "КС-004-10",
+				"materials": null,
+				"price": null,
+				"size": "1100*607*450", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 11,
+				"title": "КС-004-11",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*414", 
+				"description": "Тумба для телерадиоаппаратуры"
+			},
+			{
+				"id": 12,
+				"title": "КС-004-9-1",
+				"materials": null,
+				"price": null,
+				"size": "1100*450*454", 
+				"description": "Тумба для телерадиоаппаратуры"
+			}
+	]
+}

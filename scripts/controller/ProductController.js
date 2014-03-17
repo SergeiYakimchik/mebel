@@ -47,9 +47,7 @@ define(['appModule'], function(Shop)
 			};
 			
 			$scope.sendRequest = function() {
-				OrderService.send($scope.request).success(function(response) {
-					console.log(response);
-				});
+				OrderService.send($scope.request);
 			};
 	 		
 	 	}

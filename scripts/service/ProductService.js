@@ -6,17 +6,22 @@ define(['appModule'], function(Shop)
 	 	
 	 	function($http){
 	 	
-	 		var getProducts = function() {
+	 		var getProducts = function(url) {
+	 			
+	 			if (angular.isUndefined(url)) {
+	 				url = 'products.json'
+	 			}
+	 			
 	 			return $http({
-	 			    url: 'products.json',
+	 			    url: url,
 	 			    method: 'GET',
 	 			    header : {'Content-Type' : 'application/json; charset=UTF-8'}
 	 			});
 			};
 			
 	 		return {
-	 			getProducts : function() {
-	 				return getProducts();
+	 			getProducts : function(url) {
+	 				return getProducts(url);
 	 			}
 	 		};		
 	 	}
