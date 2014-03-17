@@ -7,10 +7,11 @@
 			<div id="carbonads-container">
 				<div class="carbonad">
 					<div id="azcarbon">
-						<carousel interval="myInterval"> <slide
-							ng-repeat="slide in slides" active="slide.active"> <img
-							ng-src="{{slide.image}}" style="margin: auto;">
-						</slide> </carousel>
+						<carousel interval="interval"> 
+							<slide ng-repeat="slide in slides" active="slide.active"> 
+								<img ng-src="{{slide.image}}" style="margin: auto;">
+							</slide> 
+						</carousel>
 					</div>
 				</div>
 			</div>
