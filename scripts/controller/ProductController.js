@@ -62,6 +62,22 @@ define(['appModule'], function(Shop)
 			$scope.sendRequest = function() {
 				OrderService.send($scope.request);
 			};
+			
+			$scope.buildSmallImg = function(id) {
+	 			if (angular.isUndefined(id)) {
+	 				return;
+	 			} else {
+	 				return 'img/products/small/' + $scope.type + '/' + id + '.jpg';
+	 			}
+			};
+			
+			$scope.buildLargeImg = function(id) {
+				if (angular.isUndefined(id)) {
+	 				return;
+	 			} else {
+	 				return 'img/products/large/' + $scope.type + '/' + id + '.jpg';
+	 			}
+			};
 				 		 		
 	 	}
 	]);
