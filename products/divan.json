@@ -106,7 +106,7 @@
 			},
 			{
 				"id": 14,
-				"title": null,
+				"title": "КС-015",
 				"materials": null,
 				"price": null,
 				"size": "2450*1025*1540", 
@@ -114,7 +114,7 @@
 			},
 			{
 				"id": 15,
-				"title": null,
+				"title": "КС-016",
 				"materials": null,
 				"price": null,
 				"size": "2150*920*950(1200)", 
@@ -127,6 +127,71 @@
 				"price": null,
 				"size": "360*430*290", 
 				"description": "Банкетка"
+			},
+			{
+				"id": 17,
+				"title": "Милан 2",
+				"materials": null,
+				"price": null,
+				"size": "В1000 х Ш2600 х Г1650", 
+				"description": "Спальное место: 1500 х 2000"
+			},
+			{
+				"id": 18,
+				"title": "Элит 2",
+				"materials": null,
+				"price": null,
+				"size": "В1000 х Ш2470 х Г1500", 
+				"description": "Спальное место: 1450 х 2000"
+			},
+			{
+				"id": 19,
+				"title": "Элит",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": "Диван: В950 х Ш2300 х Г1000, Спальное место: 1430 х 1970, Кресло: В950 х Ш970 х Г1000, Банкетка: В450 х Ш660 х Г660"
+			},
+			{
+				"id": 20,
+				"title": "Персонаж",
+				"materials": null,
+				"price": null,
+				"size": "В780 х Ш205 х Г980", 
+				"description": "Спальное место: 205 х 150"
+			},
+			{
+				"id": 21,
+				"title": "Кроха",
+				"materials": null,
+				"price": null,
+				"size": "В780 х Ш205 х Г980", 
+				"description": "Спальное место: 205 х 150"
+			},
+			{
+				"id": 22,
+				"title": "Юность",
+				"materials": null,
+				"price": null,
+				"size": "В900 х Ш1900 х Г900", 
+				"description": "Спальное место: 1400 х 1900"
+			},
+			{
+				"id": 23,
+				"title": "Юнга",
+				"materials": null,
+				"price": null,
+				"size": "В940 х Ш1200 х Г860", 
+				"description": "Спальное место: 1950 х 1080"
+			},
+			{
+				"id": 24,
+				"title": "Уют",
+				"materials": null,
+				"price": null,
+				"size": "В870 х Ш2600 х Г100", 
+				"description": "Спальное место: 143 х 197"
 			}
+			
 		]	
 }

@@ -1,15 +1,1 @@
-require.config({
-    baseUrl: 'scripts',
-    paths: {}
-});
-
-require
-(
-    [
-        'appModule'
-    ],
-    function(Shop)
-    {
-        angular.bootstrap(document, ['Shop']);
-    }
-);
+require.config({baseUrl:"scripts",paths:{}});require(["appModule"],function(e){angular.bootstrap(document,["Shop"])})
