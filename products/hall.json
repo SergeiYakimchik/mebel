@@ -87,6 +87,22 @@
 				"price": null,
 				"size": "1600*2052*435", 
 				"description": "Набор мебели для прихожей ”Уют 1,6м”"
+			},
+			{
+				"id": 12,
+				"title": "Сплетница 1000",
+				"materials": null,
+				"price": null,
+				"size": null, 
+				"description": ""
+			},
+			{
+				"id": 13,
+				"title": "Лагуна",
+				"materials": null,
+				"price": null,
+				"size": "В2200 х Ш1600 х Г600", 
+				"description": "Шкаф-купе"
 			}
 		]		
 }
