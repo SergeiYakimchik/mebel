@@ -1,22 +1,26 @@
 define([], function () {
     return {
         defaultRoutePath: "/",
-        defaultDependencies: ["controller/MainController", "controller/MenuController", "service/AlertService", "service/CurrencyService"],
+        defaultDependencies: ["controller/MainController", "controller/MenuController", "service/AlertService", "service/CurrencyService", "service/ProductService"],
         routes: {
             "/index": {
                 templateUrl: "views/index.html",
-                dependencies: ["controller/IndexController", "service/ProductService"]
+                dependencies: ["controller/IndexController"]
             },
             "/catalog/:type": {
                 templateUrl: "views/catalog.html",
-                dependencies: ["controller/CatalogController", "service/ProductService"]
+                dependencies: ["controller/CatalogController"]
             },
             "/product/:type/:id": {
                 templateUrl: "views/product.html",
-                dependencies: ["controller/ProductController", "service/OrderService", "service/ProductService"]
+                dependencies: ["controller/ProductController", "service/OrderService"]
             },
             "/interesting": {
                 templateUrl: "views/interesting.html",
+                dependencies: []
+            },
+            "/delivery": {
+                templateUrl: "views/delivery.html",
                 dependencies: []
             },
             "/about": {
