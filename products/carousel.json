@@ -1,0 +1,28 @@
+{
+	"products" : [
+		{
+			"id": 1,
+			"active": true,
+			"title":"Спальня “Щара 2”",
+			"url": "#/product/bedroom/6"
+		},
+		{
+			"id": 2,
+			"title":"Диван “Уют”",
+			"active": false,
+			"url": "#/product/divan/24"
+		},
+		{
+			"id": 3,
+			"title":"Диван “Элит”",
+			"active": false,
+			"url": "#/product/divan/19"
+		},
+		{
+			"id": 4,
+			"title":"Спальня “Щара 5”",
+			"active": false,
+			"url": "#/product/bedroom/8"
+		}
+	]
+}
