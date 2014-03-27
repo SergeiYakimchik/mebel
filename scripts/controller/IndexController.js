@@ -1,1 +1,33 @@
-define(["appModule"],function(e){e.lazy.controller("IndexController",["$scope",function(e){e.interval=5e3;var t=e.slides=[];e.addSlide=function(e){t.push({image:"img/products/large/"+(e+1)+".jpg",text:["","","",""][t.length%4]+" "+["","","",""][t.length%4]})};for(var n=0;n<4;n++){e.addSlide(n)}}])})
+define(["appModule"], function (Shop) {
+	Shop.lazy.controller("IndexController", ["$scope", "ProductService",
+        function (e, p) {
+            e.interval = 5e3;
+            e.slides = [];
+            
+            e.init = function() {
+            	var url = 'products/carousel.json';
+            	p.getProducts(url).success(function (e) {
+            		addSlides(e.products);
+                }).error(function () {
+                    console.log("error");
+                    n.path("/index")
+                });
+            	
+			};
+			
+			var addSlides = function (products) {
+				angular.forEach(products, function(item){
+					e.slides.push({
+		                    image: "img/products/large/carousel/" + item.id + ".jpg",
+		                    text: item.title,
+		                    active: item.active,
+		                    url: item.url,
+		                })
+				});
+                
+            };
+            
+            e.init();
+        }
+    ])
+})

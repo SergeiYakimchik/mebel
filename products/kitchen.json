@@ -85,16 +85,16 @@
 				"title": "Кухня ",
 				"materials": null,
 				"price": null,
-				"size": "?", 
-				"description": "??? Кухня 1,6м. Профиль фасада – модус"
+				"size": null, 
+				"description": "Кухня 1,6м. Профиль фасада – модус"
 			},
 			{
 				"id": 12,
 				"title": "Кухня ",
 				"materials": null,
 				"price": null,
-				"size": "?", 
-				"description": "???Кухня 1,6м. Профиль фасада – модус"
+				"size": null, 
+				"description": "Кухня 1,6м. Профиль фасада – модус"
 			},
 			{
 				"id": 13,
@@ -103,14 +103,6 @@
 				"price": null,
 				"size": "1800", 
 				"description": "Кухня 1,8м. Профиль фасада – ретро"
-			},
-			{
-				"id": 14,
-				"title": "КС-018",
-				"materials": null,
-				"price": null,
-				"size": "1610*1210", 
-				"description": "Скамья угловая"
 			},
 			{
 				"id": 15,
@@ -127,62 +119,6 @@
 				"price": null,
 				"size": "760*1004*604", 
 				"description": "Стол обеденный"
-			},
-			{
-				"id": 17,
-				"title": "Тюльпан-М",
-				"materials": null,
-				"price": null,
-				"size": "1100 х 1500", 
-				"description": "Длинна и ширина взаимозаменяемые. Предусмотрена зона для хранения."
-			},
-			{
-				"id": 18,
-				"title": "Стиль",
-				"materials": null,
-				"price": null,
-				"size": "1250 х 1650", 
-				"description": "Длинна и ширина взаимозаменяемые. Предусмотрена зона для хранения."
-			},
-			{
-				"id": 19,
-				"title": "Тюльпан",
-				"materials": null,
-				"price": null,
-				"size": "1200 х 1700", 
-				"description": "Длинна и ширина взаимозаменяемые. Предусмотрена зона для хранения."
-			},
-			{
-				"id": 20,
-				"title": "Лагуна",
-				"materials": null,
-				"price": null,
-				"size": "1200 х 1600", 
-				"description": "Длинна и ширина взаимозаменяемые. Предусмотрена зона для хранения."
-			},
-			{
-				"id": 21,
-				"title": "Визит-С",
-				"materials": null,
-				"price": null,
-				"size": "1250 х 2000", 
-				"description": "Предусмотрена зона для хранения. Спальное место: 2000 х 1200"
-			},
-			{
-				"id": 22,
-				"title": "Модерн",
-				"materials": null,
-				"price": null,
-				"size": "1250 х 1650", 
-				"description": "Предусмотрена зона для хранения. "
-			},
-			{
-				"id": 23,
-				"title": "Визит",
-				"materials": null,
-				"price": null,
-				"size": "1320 х 1780", 
-				"description": "Предусмотрена зона для хранения."
 			}
 		]	
 }

@@ -10,14 +10,7 @@
 		
 		<div class="col-md-6">
 		
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<td colspan="2">
-							<label>Описание</label>
-						</td>
-					</tr>
-				</thead>
+			<table class="table">
 				<tbody>
 					<tr ng-show="product.materials">
 						<td>Материал:</td><td> {{product.materials}}</td>
@@ -27,6 +20,17 @@
 					</tr>
 					<tr ng-show="product.size">
 						<td>Габариты:</td><td> {{product.size}}</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="contact-table">
+				<tbody>
+					<tr>
+						<td width="30px"><img src="img/velcom.gif"></td><td> +375-29-527-35-77</td>
+					</tr>
+					<tr>
+						<td width="30px"><img src="img/mts.gif"></td><td> +375-44-533-94-92</td>
 					</tr>
 				</tbody>
 			</table>

@@ -1,10 +1,15 @@
 <div class="bs-docs-section" ng-controller="IndexController">
 	<h1 class="page-header">Главная</h1>
 
-	<div>
+	<div class="main-carousel">
 		<carousel interval="interval"> 
 			<slide ng-repeat="slide in slides" active="slide.active"> 
-				<img ng-src="{{slide.image}}" style="margin: auto;">
+				<a href="{{slide.url}}">
+					<img ng-src="{{slide.image}}" style="margin: auto;"/>
+					<div class="carousel-caption">
+          				<p>{{slide.text}}</p>
+        			</div>
+				</a>
 			</slide> 
 		</carousel>
 	</div>

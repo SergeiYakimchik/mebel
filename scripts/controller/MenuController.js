@@ -3,34 +3,47 @@ define(['appModule'], function(Shop)
 	Shop.lazy.controller('MenuController', 
 	[
 	 	'$scope',
+	 	'ProductService',
 
-	 	function($scope){
+	 	function($scope, p){
 	 		
-	 		$scope.interval = 5000;
-	 		
-	 		var slides = $scope.slides = [];
-	 		
-	 		$scope.addSlide = function(i) {
-	 			slides.push({
-	 				image: 'img/products/small/' + (i+1) + '.jpg',
-	 				text: ['','','',''][slides.length % 4] + ' ' +
-	 				['', '', '', ''][slides.length % 4]
-	 			});
-	 		};
-	 		
-	 		for (var i=0; i<4; i++) {
-	 			$scope.addSlide(i);
-	 		}
+	 			$scope.interval = 5e3;
+	 			$scope.slides = [];
+	            
+	 			$scope.init = function() {
+	            	var url = 'products/carousel.json';
+	            	p.getProducts(url).success(function (response) {
+	            		addSlides(response.products);
+	                }).error(function () {
+	                    console.log("error");
+	                    n.path("/index")
+	                });
+	            	
+				};
+				
+				var addSlides = function (products) {
+					angular.forEach(products, function(item){
+						$scope.slides.push({
+			                    image: "img/products/small/carousel/" + item.id + ".jpg",
+			                    text: '',
+			                    active: item.active,
+			                    url: item.url,
+			                })
+					});
+	                
+	            };
+	            
+		 		$('#leftMenu').affix({
+		 			offset: {
+		 				top: 200
+		 				, bottom: function () {
+		 					return (this.bottom = $('.bs-footer').outerHeight(true))
+		 				}
+		 			}
+		 		})
 
-
-	 		$('#leftMenu').affix({
-	 			offset: {
-	 				top: 200
-	 				, bottom: function () {
-	 					return (this.bottom = $('.bs-footer').outerHeight(true))
-	 				}
-	 			}
-	 		})
+	            
+	            $scope.init();
 	 		
 	 		
 	 	}
