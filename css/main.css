@@ -2,7 +2,6 @@ body {
 	position: absolute;
 	top: 0; left: 0;
 	bottom: 0; right: 0;
-	/*background: url('./img/bg.jpg') 0 0 #ddd;*/
 	margin: 0px;
 	padding: 0px;
 	padding-top: 10px;
@@ -53,14 +52,17 @@ body {
 	padding: 10px;
 	margin: 10px;
 	border: 1px solid #fff;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .catalog-product:hover {
 	border: 1px solid #ccc;
 	background: #f9f9f9;
-	border-radius: .5em;
-	-webkit-transition: all .5s ease-in-out;
-	transition: all .5s ease-in-out;
+	border-radius: 3px;
+	-webkit-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+	box-shadow: 3px 3px 3px rgba(0,0,0,.1);
 }
 
 .catalog-img {
@@ -75,6 +77,35 @@ body {
 	height: 100%;
 	margin-left: auto; 
 	margin-right: auto;
+}
+
+.product-link {
+}
+
+.contact-table {
+	margin: auto;
+}
+
+.arrow  {
+	position: absolute;
+	top: 8px;
+	left: 17px;
+	font-size: 50%;
+}
+
+.bs-sidebar .nav>.active:hover>a {
+	padding-left: 17px;
+	border-right: 4px solid #8f76bb;
+	border-radius: 0px;
+}
+
+.contact-table > tbody > tr {
+	height: 30px;
+}
+
+.contact-table > tbody > tr > td> img {
+	width: 20px;
+	height: 20px;
 }
 
 .interesting-img {
