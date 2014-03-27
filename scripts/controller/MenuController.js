@@ -33,6 +33,16 @@ define(['appModule'], function(Shop)
 	                
 	            };
 	            
+		 		$('#leftMenu').affix({
+		 			offset: {
+		 				top: 200
+		 				, bottom: function () {
+		 					return (this.bottom = $('.bs-footer').outerHeight(true))
+		 				}
+		 			}
+		 		})
+
+	            
 	            $scope.init();
 	 		
 	 		
