@@ -21,17 +21,17 @@ define(['appModule'], function(Shop)
 	 			$scope.type = $routeParams.type;
 	 			$scope.id = $routeParams.id;
 	 			
-	 			if (angular.isUndefined($scope.type)) {
-	 				url = 'products.json'
-	 			} else {
+	 			if (!angular.isUndefined($scope.type)) {
 	 				url = 'products/'+$scope.type+'.json'
+					ProductService.getProducts(url).success(function(response) {
+	 					$scope.products = response.products;
+		 				$scope.seeAlsoProducts = $scope.products.getRandom(3);
+		 				$scope.product = searchById($routeParams.id);
+						if ($scope.product) {
+							$('.product-description').html($scope.product.description);
+						}
+					});
 	 			}
-	 			
-	 			ProductService.getProducts(url).success(function(response) {
-	 				$scope.products = response.products;
-		 			$scope.seeAlsoProducts = $scope.products.getRandom(3);
-		 			$scope.product = searchById($routeParams.id);
-				});
 	 			
 			};
 			
