@@ -6,7 +6,7 @@
 				"materials": null,
 				"price": null,
 				"size": "800*1420*560",
-				"description": "Описание продукта 1"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 2,
@@ -14,7 +14,7 @@
 				"materials": null,
 				"price": null,
 				"size":"1030*1420*560",
-				"description": "Описание продукта 2"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 3,
@@ -22,7 +22,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1250*1420*650", 
-				"description": "Описание продукта 3"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 4,
@@ -30,7 +30,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1125*850*560", 
-				"description": "Описание продукта 4"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 5,
@@ -46,7 +46,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1050*735*1050", 
-				"description": "Описание продукта 6"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 7,
@@ -54,7 +54,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1050*735*1050", 
-				"description": "Описание продукта 7"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 8,
@@ -62,7 +62,7 @@
 				"materials": null,
 				"price": null,
 				"size": "970*750*560", 
-				"description": "Описание продукта 8"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 9,
@@ -70,7 +70,7 @@
 				"materials": null,
 				"price": null,
 				"size": "836*610*670", 
-				"description": "Описание продукта 9"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 10,
@@ -78,7 +78,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1430*1105*620", 
-				"description": "Описание продукта 10"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 11,
@@ -86,7 +86,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1300*1270*900", 
-				"description": "Описание продукта 11"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 12,
@@ -94,7 +94,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1300*1270*900", 
-				"description": "Описание продукта 12"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 13,
@@ -102,7 +102,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1302*850*560", 
-				"description": "Описание продукта 13"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 14,
@@ -110,7 +110,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1300*1400*650", 
-				"description": "Описание продукта 14"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 15,
@@ -118,7 +118,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1520*2010*900", 
-				"description": "Описание продукта 15"
+				"description": "Компьютерный стол"
 			},
 			{
 				"id": 16,
@@ -126,7 +126,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1520*2010*900", 
-				"description": "Описание продукта 16"
+				"description": "Компьютерный стол"
 			}
 	
 	]
