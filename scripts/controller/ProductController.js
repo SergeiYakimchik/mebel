@@ -4,13 +4,14 @@ define(['appModule'], function(Shop)
 	[
 	 	'$routeParams',
 	 	'$scope',
+	 	'$location',
 	 	'OrderService',
 	 	'ProductService',
 
-	 	function($routeParams, $scope, OrderService, ProductService){
+	 	function($routeParams, $scope, $location, OrderService, ProductService){
 	 		
 	 		$scope.request = {};
-	 		$scope.product = {};
+	 		$scope.product = null;
 	 		$scope.products = [];
 	 		$scope.seeAlsoProducts = [];
 	 		
@@ -29,16 +30,20 @@ define(['appModule'], function(Shop)
 		 				$scope.product = searchById($routeParams.id);
 						if ($scope.product) {
 							$('.product-description').html($scope.product.description);
+						} else {
+							$location.path('/index');
 						}
+					}).error(function() {
+						$location.path('/index');
 					});
-	 			}
+	 			} 
 	 			
 			};
 			
 			$scope.init();
 	 		
 	 		var searchById = function(id) {
-	 			var product = {};
+	 			var product = null;
 	 			angular.forEach($scope.products, function(item){
 	 				if (item.id == id){
 	 					product = item;
