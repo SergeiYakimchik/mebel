@@ -1,6 +1,6 @@
 define(['appModule'], function(app)
 {
-	app.lazy.directive('ihtml', 
+	app.lazy.directive('productDescription', 
 	[
 	 	function(){
 

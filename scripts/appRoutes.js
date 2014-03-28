@@ -1,7 +1,7 @@
 define([], function () {
     return {
         defaultRoutePath: "/",
-        defaultDependencies: ["directive/ihtml", "controller/MainController", "controller/MenuController", "service/AlertService", "service/CurrencyService", "service/ProductService"],
+        defaultDependencies: ["directive/catalogImg", "directive/productDescription", "directive/productImg", "controller/MainController", "controller/MenuController", "service/AlertService", "service/CurrencyService", "service/ProductService"],
         routes: {
             "/index": {
                 templateUrl: "views/index.html",

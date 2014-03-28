@@ -58,7 +58,7 @@ body {
 
 .catalog-product:hover {
 	border: 1px solid #ccc;
-	background: #f9f9f9;
+	background: #fefefe;
 	border-radius: 3px;
 	-webkit-transition: all .7s ease-in-out;
 	transition: all .7s ease-in-out;
@@ -70,6 +70,7 @@ body {
 	height: 100%;
 	margin-left: auto; 
 	margin-right: auto;
+	min-height: 150px;
 }
 
 .product-img {
@@ -77,6 +78,37 @@ body {
 	height: 100%;
 	margin-left: auto; 
 	margin-right: auto;
+	min-height: 350px;
+}
+
+.hidden-item {
+	display: none;	
+}
+
+#loader {
+	position: absolute;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;	
+}
+
+.catalog-loader {
+	top: 35%;
+}
+
+.product-loader {
+	top: 43%;
+}
+
+.carousel-control {
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.carousel-inner {
+	border-radius: 10px;
 }
 
 .product-link {
