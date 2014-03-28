@@ -14,7 +14,7 @@ define(['appModule'], function(app)
 					 },
 				replace:true,
 				template: 
-					'<div><a href="#/product/{{type}}/{{id}}" class="img-thumbnail">'+
+					'<div><a href="#/product/{{type}}/{{id}}" class="img-thumbnail catalog-thumbnail">'+
   						'<img class="catalog-img hidden-item" ng-src="{{src}}">'+
   						'<div id="loader" class="catalog-loader"> <div class="lb-cancel"></div> </div>'+
 					'</a>'+
