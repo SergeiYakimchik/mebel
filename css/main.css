@@ -78,7 +78,16 @@ body {
 	height: 100%;
 	margin-left: auto; 
 	margin-right: auto;
-	min-height: 350px;
+}
+
+.product-thumbnail {
+	min-width: 100%;
+	min-height: 250px;
+}
+
+.catalog-thumbnail {
+	min-width: 100%;
+	min-height: 150px;
 }
 
 .hidden-item {
