@@ -85,11 +85,15 @@ body {
 .product-thumbnail {
 	min-width: 100%;
 	min-height: 250px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .catalog-thumbnail {
 	min-width: 200px;
 	min-height: 150px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .hidden-item {
