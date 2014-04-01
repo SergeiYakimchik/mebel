@@ -16,6 +16,19 @@ define(["appModule"], function (e) {
                     n.path("/index")
                 })
             };
+            
+            t.templates = [
+                          { url: 'views/catalog/table.html' },
+                          { url: 'views/catalog/list.html' }];
+            
+            t.template = t.templates[0];
+            
+            t.tableItems = function() {
+            	t.template = t.templates[0];
+			};
+			t.listItems = function() {
+				t.template = t.templates[1];
+			};
             t.buildSmallImg = function (e) {
                 if (angular.isUndefined(e)) {
                     return
