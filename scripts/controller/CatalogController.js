@@ -29,7 +29,7 @@ define(["appModule"], function (e) {
             if (!angular.isUndefined(cookiesTemplate)) {
             	t.template = t.templates[cookiesTemplate];
             } else {
-            	t.tableItems();
+            	t.template = t.templates[0];
             }
             
             t.tableItems = function() {
