@@ -7,10 +7,11 @@ define(['appModule'], function(app)
 	 		return {
 	 			restrict:'E',
 	 			scope: {
-						 insert: "@"
+						 insert: "@",
+						 classes: "@"
 					 },
 				replace:true,
-				template: '<div class="col-md-12 product-description"></div>',
+				template: '<div class="{{classes}}"></div>',
 	 			link: function(scope, element, attrs) {
 	 				element.html(scope.insert);
 	 			}

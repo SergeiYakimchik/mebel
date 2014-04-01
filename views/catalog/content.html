@@ -1,23 +1,13 @@
 <div ng-controller="CatalogController">
-	<div ng-repeat="item in products">
-		<div ng-switch="" on="$index % 3">
-			<div class="row" ng-switch-when="0">
-				<div class="col-sm-4" ng-show="products[$index+0]">
-					<div class="catalog-product">
-        				<catalog-img id="{{products[$index+0].id}}" type="{{type}}" src="{{buildSmallImg(products[$index+0].id)}}" title="{{products[$index+0].title}}"/>
-					</div>
-				</div>
-				<div class="col-sm-4" ng-show="products[$index+1]">
-					<div class="catalog-product">
-						<catalog-img id="{{products[$index+1].id}}" type="{{type}}" src="{{buildSmallImg(products[$index+1].id)}}" title="{{products[$index+1].title}}"/>
-					</div>
-				</div>
-				<div class="col-sm-4" ng-show="products[$index+2]">
-					<div class="catalog-product">
-						<catalog-img id="{{products[$index+2].id}}" type="{{type}}" src="{{buildSmallImg(products[$index+2].id)}}" title="{{products[$index+2].title}}"/>
-					</div>
-				</div>
+	<div class="row">
+		<div class="col-md-8">
+		</div>
+		<div class="col-md-4">
+			<div class="catalog-th-list pull-right">
+				<a ng-click="tableItems()"><span class="glyphicon glyphicon-th"></span></a>
+				<a ng-click="listItems()"><span class="glyphicon glyphicon-th-list"></span></a>
 			</div>
 		</div>
 	</div>
+	<div ng-include src="template.url"></div>
 </div>

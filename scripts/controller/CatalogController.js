@@ -1,6 +1,6 @@
 define(["appModule"], function (e) {
-    e.lazy.controller("CatalogController", ["$routeParams", "$scope", "$location", "ProductService",
-        function (e, t, n, r) {
+    e.lazy.controller("CatalogController", ["$routeParams", "$scope", "$cookieStore", "$location", "ProductService",
+        function (e, t, cookieStore, n, r) {
             t.init = function () {
                 t.type = e.type;
                 var i;
@@ -16,6 +16,30 @@ define(["appModule"], function (e) {
                     n.path("/index")
                 })
             };
+            
+            t.templates = [
+                          { url: 'views/catalog/table.html' },
+                          { url: 'views/catalog/list.html' }];
+            
+            console.log();
+            t.template = t.templates[0];
+            
+            var cookiesTemplate = cookieStore.get('glassMebelCatalogTemplate');
+            
+            if (!angular.isUndefined(cookiesTemplate)) {
+            	t.template = t.templates[cookiesTemplate];
+            } else {
+            	t.tableItems();
+            }
+            
+            t.tableItems = function() {
+            	t.template = t.templates[0];
+            	cookieStore.put('glassMebelCatalogTemplate', 0);
+			};
+			t.listItems = function() {
+				t.template = t.templates[1];
+				cookieStore.put('glassMebelCatalogTemplate', 1);
+			};
             t.buildSmallImg = function (e) {
                 if (angular.isUndefined(e)) {
                     return
