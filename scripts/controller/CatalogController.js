@@ -21,7 +21,6 @@ define(["appModule"], function (e) {
                           { url: 'views/catalog/table.html' },
                           { url: 'views/catalog/list.html' }];
             
-            console.log();
             t.template = t.templates[0];
             
             var cookiesTemplate = cookieStore.get('glassMebelCatalogTemplate');
@@ -29,7 +28,7 @@ define(["appModule"], function (e) {
             if (!angular.isUndefined(cookiesTemplate)) {
             	t.template = t.templates[cookiesTemplate];
             } else {
-            	t.tableItems();
+            	t.template = t.templates[0];
             }
             
             t.tableItems = function() {
