@@ -60,12 +60,17 @@ define(['appModule'], function(Shop)
    			 	return A.splice(0, num);
 			};
 			
-			$scope.buy = function(item) {
+			$scope.buy = function(item, type) {
 				$scope.request.product = item;
+				$scope.request.type = type;
 			};
 			
 			$scope.sendRequest = function() {
 				OrderService.send($scope.request);
+			};
+			
+			$scope.disableBuyButton = function() {
+				return (!angular.isUndefined($scope.request.name)&&!angular.isUndefined($scope.request.address))
 			};
 			
 			$scope.buildSmallImg = function(id) {
