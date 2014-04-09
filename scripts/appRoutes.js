@@ -29,7 +29,7 @@ define([], function () {
             },
             "/feedback": {
                 templateUrl: "views/feedback.html",
-                dependencies: []
+                dependencies: ['service/FeedbackService', 'controller/FeedbackController']
             }
         }
     }
