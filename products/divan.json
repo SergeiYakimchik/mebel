@@ -7,6 +7,7 @@
 				"materials": null,
 				"price": null,
 				"size": "В1000 х Ш2600 х Г1650", 
+				"manufacturer":"СлонимМебель",
 				"description": "Спальное место: 1500 х 2000"
 			},
 			{
@@ -15,6 +16,7 @@
 				"materials": null,
 				"price": null,
 				"size": "В1000 х Ш2470 х Г1500", 
+				"manufacturer":"СлонимМебель",
 				"description": "Спальное место: 1450 х 2000"
 			},
 			{
@@ -23,6 +25,7 @@
 				"materials": null,
 				"price": null,
 				"size": null, 
+				"manufacturer":"СлонимМебель",
 				"description": "Диван: В950 х Ш2300 х Г1000, <br> Спальное место: 1430 х 1970, <br> Кресло: В950 х Ш970 х Г1000, <br> Банкетка: В450 х Ш660 х Г660"
 			},
 			{
@@ -31,6 +34,7 @@
 				"materials": null,
 				"price": null,
 				"size": "В780 х Ш205 х Г980", 
+				"manufacturer":"СлонимМебель",
 				"description": "Спальное место: 205 х 150"
 			},
 			{
@@ -39,6 +43,7 @@
 				"materials": null,
 				"price": null,
 				"size": "В780 х Ш205 х Г980", 
+				"manufacturer":"СлонимМебель",
 				"description": "Спальное место: 205 х 150"
 			},
 			{
@@ -47,6 +52,7 @@
 				"materials": null,
 				"price": null,
 				"size": "В900 х Ш1900 х Г900", 
+				"manufacturer":"СлонимМебель",
 				"description": "Спальное место: 1400 х 1900"
 			},
 			{
@@ -54,7 +60,8 @@
 				"title": "Диван “Юнга”",
 				"materials": null,
 				"price": null,
-				"size": "В940 х Ш1200 х Г860", 
+				"size": "В940 х Ш1200 х Г860",
+				"manufacturer":"СлонимМебель", 
 				"description": "Спальное место: 1950 х 1080"
 			},
 			{
@@ -63,6 +70,7 @@
 				"materials": null,
 				"price": null,
 				"size": "В870 х Ш2600 х Г100", 
+				"manufacturer":"СлонимМебель",
 				"description": "Спальное место: 143 х 197"
 			},
 			{
@@ -71,6 +79,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2080*1060", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-016-1. Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
 			},
 			{
@@ -79,6 +88,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2080*1060", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-016-2. Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
 			},
 			{
@@ -87,6 +97,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2080*1060", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-016-3. Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
 			},
 			{
@@ -95,6 +106,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2080*1060", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-016-4. Тахта “Комфорт” (разложенныйL*B=2080*1600 мм)"
 			},
 			{
@@ -103,6 +115,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1430*850*950", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-017. Диван-кровать “Джесика” (разложенный L*H*B=1430*850*2020 мм)"
 			},
 			{
@@ -111,6 +124,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1740*850*950", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-023-1. Диван-кровать “Джесика” (разложенный L*H*B=1740*850*2020 мм)"
 			},
 			{
@@ -119,6 +133,7 @@
 				"materials": null,
 				"price": null,
 				"size": "940*850*950", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-023-2. Диван-кровать “Джесика” (разложенный L*H*B=940*850*2020 мм)"
 			},
 			{
@@ -127,6 +142,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1520*830*850", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-015-1. Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
 			},
 			{
@@ -135,6 +151,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1520*830*850", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-015-2. Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
 			},
 			{
@@ -143,6 +160,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1520*830*850", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-015-3. Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
 			},
 			{
@@ -151,6 +169,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1520*830*850", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-015-4. Тахта “Алиса” (разложенный L*H*B=2020*850*850 мм)"
 			},
 			{
@@ -159,6 +178,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2080*850*720", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-016-1. Тахта “Алеся”"
 			},
 			{
@@ -167,6 +187,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2080*850*720", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-016-2. Тахта “Алеся”"
 			},
 			{
@@ -175,6 +196,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2450*1025*1540", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-015. Диван “Лугано”"
 			},
 			{
@@ -183,6 +205,7 @@
 				"materials": null,
 				"price": null,
 				"size": "2150*920*950(1200)", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-016. Набор мебели для отдыха “Лира” (кресло L*H*B=830*920*950 мм)"
 			},
 			{
@@ -191,9 +214,8 @@
 				"materials": null,
 				"price": null,
 				"size": "360*430*290", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-023-05. Банкетка. "
 			}
-
-			
 		]	
 }

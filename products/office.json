@@ -6,6 +6,7 @@
 				"materials": null,
 				"price": null,
 				"size": "800*1840*580", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Шкаф офисный для одежды"
 			},
 			{
@@ -14,6 +15,7 @@
 				"materials": null,
 				"price": null,
 				"size": "800*1840*430", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Шкаф офисный"
 			},
 			{
@@ -22,6 +24,7 @@
 				"materials": null,
 				"price": null,
 				"size": "800*1840*430", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Шкаф офисный"
 			},
 			{
@@ -30,6 +33,7 @@
 				"materials": null,
 				"price": null,
 				"size": "800*1840*430", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Шкаф офисный"
 			},
 			{
@@ -38,6 +42,7 @@
 				"materials": null,
 				"price": null,
 				"size": "400*1840*430", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Шкаф офисный"
 			},
 			{
@@ -46,6 +51,7 @@
 				"materials": null,
 				"price": null,
 				"size": "400*1840*430", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Шкаф офисный"
 			},
 			{
@@ -54,6 +60,7 @@
 				"materials": null,
 				"price": null,
 				"size": null, 
+				"manufacturer":"КомпасМебель", 
 				"description": "Стол аудиторный"
 			},
 			{
@@ -62,6 +69,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1605*750*755", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Стол офисный с приставкой (габаритные размеры приставки- L*H*B=1005*725*705). <br> Возможно приобретение каждого элемента отдельно"
 			},
 			{
@@ -70,6 +78,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1405*705*750", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Стол офисный двухтумбовый"
 			}
 		]	

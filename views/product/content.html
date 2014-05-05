@@ -13,32 +13,26 @@
 					<tr ng-show="product.materials">
 						<td>Материал:</td><td> {{product.materials}}</td>
 					</tr>
-					<tr ng-show="product.manufacturer">
-						<td>Производитель:</td><td> {{product.manufacturer}}</td>
-					</tr>
 					<tr ng-show="product.size">
 						<td>Габариты:</td><td> {{product.size}}</td>
 					</tr>
 				</tbody>
 			</table>
 			
+			<div class="row">
+				<div class="col-md-6 product-price"><span class="pull-right">Цена:</span></div>
+				<div class="col-md-6 product-price" ng-show="product.price">
+					{{getPrice(product.price)}}
+				</div>
+				<div class="col-md-6" ng-show="!product.price"> <span>* уточняйте </span></div>
+			</div>
+			
 			<table class="contact-table">
 				<tbody>
-					<tr><td width="30px"><img src="img/velcom.gif"/></td><td> +375-29-527-35-77</td></tr>
-					<tr><td width="30px"><img src="img/mts.gif"/></td><td> +375-44-533-94-92</td></tr>
-					<tr><td width="30px"><img src="img/velcom.gif"/></td><td> +375-44-565-24-99</td></tr>
-					<tr><td width="30px"><img src="img/mts.gif"/></td><td> +375-29-221-63-34</td></tr>
+					<tr><td width="30px"><img src="img/velcom.gif"/></td><td> +375-29-527-35-77</td><td width="10px"></td><td width="30px"><img src="img/velcom.gif"/></td><td></td><td> +375-44-565-24-99</td></tr>
+					<tr><td width="30px"><img src="img/mts.gif"/></td><td> +375-44-533-94-92</td><td width="10px"></td><td width="30px"><img src="img/mts.gif"/>	</td><td></td><td> +375-29-221-63-34</td></tr>
 				</tbody>
 			</table>
-			
-			<div id="price" ng-show="product.price">
-				<div class="col-md-12 product-price"><label>Цена:</label></div>
-				<div class="col-md-12 product-price">{{getPrice(product.price)}}</div>
-				
-				<div class="col-md-12 product-price-info">
-					 * Расчет проводится в белорусских рублях по курсе НацБанка в момент покупки товара.
-				</div>
-			</div>
 			
 			<div class="col-md-12 product-button">
 				<button class="btn btn-success" data-toggle="modal" data-target="#buyModal" ng-click="buy(product, type)">Заказать</button>

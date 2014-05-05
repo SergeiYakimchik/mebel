@@ -6,6 +6,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1610*1210", 
+				"manufacturer":"КомпасМебель",
 				"description": "Модель КС-018. Скамья угловая"
 			},
 			{
@@ -14,6 +15,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1100 х 1500", 
+				"manufacturer":"СлонимМебель",
 				"description": "Длинна и ширина взаимозаменяемые. <br> Предусмотрена зона для хранения."
 			},
 			{
@@ -22,6 +24,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1250 х 1650", 
+				"manufacturer":"СлонимМебель",
 				"description": "Длинна и ширина взаимозаменяемые. <br> Предусмотрена зона для хранения."
 			},
 			{
@@ -30,6 +33,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1200 х 1700", 
+				"manufacturer":"СлонимМебель",
 				"description": "Длинна и ширина взаимозаменяемые. <br> Предусмотрена зона для хранения."
 			},
 			{
@@ -38,6 +42,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1200 х 1600", 
+				"manufacturer":"СлонимМебель",
 				"description": "Длинна и ширина взаимозаменяемые. <br> Предусмотрена зона для хранения."
 			},
 			{
@@ -46,6 +51,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1250 х 2000", 
+				"manufacturer":"СлонимМебель",
 				"description": "Предусмотрена зона для хранения. <br> Спальное место: 2000 х 1200"
 			},
 			{
@@ -54,6 +60,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1250 х 1650", 
+				"manufacturer":"СлонимМебель",
 				"description": "Предусмотрена зона для хранения. "
 			},
 			{
@@ -62,6 +69,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1320 х 1780", 
+				"manufacturer":"СлонимМебель",
 				"description": "Предусмотрена зона для хранения."
 			}
 		]	

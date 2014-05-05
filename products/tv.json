@@ -5,7 +5,8 @@
 				"title": "КС-004-01",
 				"materials": null,
 				"price": null,
-				"size": "642*700*450", 
+				"size": "642*700*450",
+				"manufacturer":"КомпасМебель",  
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -14,6 +15,7 @@
 				"materials": null,
 				"price": null,
 				"size": "832*700*480", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -22,6 +24,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1000*650*480", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -30,6 +33,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1000*750*480", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -38,6 +42,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1000*700*480", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -46,6 +51,7 @@
 				"materials": null,
 				"price": null,
 				"size": "675*650*450", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -54,6 +60,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1050*770*500", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -62,6 +69,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1100*450*414", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -70,6 +78,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1100*450*454", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -78,6 +87,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1100*607*450", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -86,6 +96,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1100*450*414", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			},
 			{
@@ -94,6 +105,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1100*450*454", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для телерадиоаппаратуры"
 			}
 	]

@@ -6,6 +6,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1300*1070*375", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для обуви"
 			},
 			{
@@ -14,6 +15,7 @@
 				"materials": null,
 				"price": null,
 				"size": "1300*1070*375", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для обуви"
 			},
 			{
@@ -22,6 +24,7 @@
 				"materials": null,
 				"price": null,
 				"size": "910*900*375", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для обуви"
 			},
 			{
@@ -30,6 +33,7 @@
 				"materials": null,
 				"price": null,
 				"size": "610*900*375", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для обуви"
 			},
 			{
@@ -38,6 +42,7 @@
 				"materials": null,
 				"price": null,
 				"size": "602*900*375", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для обуви"
 			},
 			{
@@ -46,6 +51,7 @@
 				"materials": null,
 				"price": null,
 				"size": "602*900*375", 
+				"manufacturer":"КомпасМебель", 
 				"description": "Тумба для обуви"
 			}
 		]

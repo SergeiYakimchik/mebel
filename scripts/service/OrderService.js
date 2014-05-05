@@ -14,7 +14,8 @@ define(['appModule'], function(Shop)
 	 		 			'entry.1237375226':	request.phone,
 	 		 			'entry.1993392690':	request.address,
 	 		 			'entry.1840903819':	'http://sergeiyakimchik.github.io/mebel/#/product/' + request.type + '/' + request.product.id,
-	 		 			'entry.1918440201':	request.comment 
+	 		 			'entry.1918440201':	request.comment,
+	 		 			'entry.1469286839': request.product.manufacturer
 	 			}
 	 			
 	 			$.ajax({

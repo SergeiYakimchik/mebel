@@ -8,7 +8,6 @@ body {
 }
 
 .phones {
-	padding-right: 340px;
 	right: 0;
 	top: 0;
 	position: absolute;
@@ -25,12 +24,27 @@ body {
 	width: 15px;
 }
 
+@media (min-width: 200px) {
+  .phones {
+	position: relative;
+	padding-right: inherit;
+  }
+}
+
+@media (min-width: 480px) {
+  .phones {
+	position: relative;
+	padding-right: inherit;
+  }
+}
+
 @media (min-width: 767px) {
   .affix,.affix-top {
       position:static;
   }
   .phones {
 	position: relative;
+	padding-right: inherit;
   }
 }
 
@@ -50,6 +64,7 @@ body {
   
   .phones {
 	position: absolute;
+	padding-right: 340px;
   }
   
 }
@@ -238,6 +253,7 @@ body {
 
 .product-button {
 	text-align: center;
+	padding-top: 20px;
 }
 
 .product-price-info {
