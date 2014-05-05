@@ -11,6 +11,7 @@ define(['appModule'], function(Shop)
 	 			$scope.slides = [];
 	            
 	 			$scope.init = function() {
+	 				$scope.currentYear = new Date().getFullYear();
 	            	var url = 'products/carousel.json';
 	            	p.getProducts(url).success(function (response) {
 	            		addSlides(response.products);
@@ -33,18 +34,20 @@ define(['appModule'], function(Shop)
 	                
 	            };
 	            
-		 		$('#leftMenu').affix({
-		 			offset: {
-		 				top: 200
-		 				, bottom: function () {
-		 					return (this.bottom = $('.bs-footer').outerHeight(true))
-		 				}
-		 			}
-		 		})
-
+//		 		$('#leftMenu').affix({
+//		 			offset: {
+//		 				top: 200
+//		 				, bottom: function () {
+//		 					return (this.bottom = $('.bs-footer').outerHeight(true))
+//		 				}
+//		 			}
+//		 		})
+	            
+	            $scope.getCurrentYear = function() {
+					return
+				}
 	            
 	            $scope.init();
-	 		
 	 		
 	 	}
 	]);

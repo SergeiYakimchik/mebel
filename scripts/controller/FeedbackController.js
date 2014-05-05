@@ -4,8 +4,9 @@ define(['appModule'], function(Shop)
 	[
 	 	'$scope',
 	 	'FeedbackService',
+	 	'AlertService',
 
-	 	function($scope, FeedbackService){
+	 	function($scope, FeedbackService, alert){
 	 		
 	 		$scope.request = {};
 	 		
@@ -15,6 +16,8 @@ define(['appModule'], function(Shop)
 	 		
 	 		$scope.sendFeedback = function() {
 	 			FeedbackService.send($scope.request);
+	 			alert.show('Спасибо за Ваш отзыв.');
+	 			$scope.request = {};
 			}
 	 		
 	 	}
