@@ -7,7 +7,34 @@ body {
 	padding-top: 10px;
 }
 
-@media (min-width: 979px) {
+.phones {
+	padding-right: 340px;
+	right: 0;
+	top: 0;
+	position: absolute;
+	color: #fff;
+}
+
+.phone {
+	font-size: 14px;
+	padding-top: 2px;
+}
+
+.phone img, .footer img {
+	height: 15px;
+	width: 15px;
+}
+
+@media (min-width: 767px) {
+  .affix,.affix-top {
+      position:static;
+  }
+  .phones {
+	position: relative;
+  }
+}
+
+@media (min-width: 992px) {
 
   #midCol.affix-top {
       position:fixed;
@@ -20,14 +47,13 @@ body {
       position:static;
       width:100%;
   }
-
-}
-
-@media (min-width: 767px) {
-  .affix,.affix-top {
-      position:static;
+  
+  .phones {
+	position: absolute;
   }
+  
 }
+
 
 .footer {
 	width: 100%;
